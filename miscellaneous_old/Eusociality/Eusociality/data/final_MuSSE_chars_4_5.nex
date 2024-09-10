@@ -1,0 +1,193 @@
+#NEXUS
+[Data written by write.nexus.data.R, Fri Apr  5 15:48:08 2024]
+BEGIN DATA;
+  DIMENSIONS NTAX=184 NCHAR=1;
+  FORMAT DATATYPE=STANDARD MISSING=? GAP=- INTERLEAVE=NO symbols= "1234" ;
+  MATRIX
+    Agapostemon_splendens           1
+    Agapostemon_angelicus           2
+    Agapostemon_texanus             (1 2)
+    Agapostemon_virescens           2
+    Agapostemon_sericeus            1
+    Agapostemon_nasutus             2
+    Ruizantheda_mutabilis           2
+    Ruizantheda_proxima             2
+    Thrinchostoma_torridum          (1 2)
+    Halictus_confusus               (2 3)
+    Halictus_tumulorum              3
+    Halictus_aerarius               3
+    Halictus_kessleri               3
+    Halictus_subauratus             3
+    Halictus_tripartitus            3
+    Halictus_ligatus                3
+    Halictus_poeyi                  3
+    Halictus_quadricinctus          2
+    Halictus_fulvipes               3
+    Halictus_scabiosae              3
+    Halictus_sexcinctus             3
+    Halictus_farinosus              3
+    Halictus_rubicundus             (2 3)
+    Thrincohalictus_prognathus      1
+    Lasioglossum_albipes            3
+    Lasioglossum_calceatum          3
+    Lasioglossum_duplex             3
+    Lasioglossum_nigripes           3
+    Lasioglossum_apristum           3
+    Lasioglossum_laticeps           3
+    Lasioglossum_malachurum         3
+    Lasioglossum_comagenense        2
+    Lasioglossum_baleicum           3
+    Lasioglossum_nupricola          2
+    Lasioglossum_oenotherae         1
+    Lasioglossum_lusorium           2
+    Lasioglossum_umbripenne         3
+    Lasioglossum_imitatum           3
+    Lasioglossum_tenax              2
+    Lasioglossum_versatum           3
+    Lasioglossum_obscurum           3
+    Lasioglossum_lineatulum         3
+    Lasioglossum_sordidum           2
+    Lasioglossum_lustrans           (1 2)
+    Lasioglossum_ohei               2
+    Lasioglossum_villosulum         2
+    Lasioglossum_marginatum         3
+    Lasioglossum_politum            3
+    Lasioglossum_zonulum            1
+    Lasioglossum_scitulum           (1 2 3)
+    Lasioglossum_majus              2
+    Lasioglossum_mutilum            (1 2 3)
+    Lasioglossum_leucozonium        1
+    Lasioglossum_occidens           1
+    Lasioglossum_cognatum           1
+    Lasioglossum_erythrurum         2
+    Lasioglossum_hemichalceum       2
+    Lasioglossum_lanarium           2
+    Lasioglossum_sphecodoides       2
+    Lasioglossum_laevigatum         1
+    Sphecodes_pimpinellae           4
+    Sphecodes_crassus               4
+    Augochlora_pura                 2
+    Augochlora_phoemonoe            3
+    Augochlorella_aurata            (1 3)
+    Augochlorella_persimilis        3
+    Megalopta_genalis               (2 3)
+    Megalopta_amoena                (2 3)
+    Megalopta_atra                  (1 2)
+    Xenochlora_ianthina             (2 3)
+    Xenochlora_nigrofemorata        (2 3)
+    Augochloropsis_metallica        2
+    Augochloropsis_sparsilis        2
+    Corynura_patagonica             2
+    Dieunomia_nevadensis            1
+    Dieunomia_triangulifera         1
+    Lipotriches_australica          2
+    Nomia_chalybeata                (1 2)
+    Nomia_melanderi                 1
+    Nomia_tetrazonata               2
+    Pseudapis_oxybeloides           2
+    Dufourea_novaeangliae           1
+    Dufourea_malacothricis          1
+    Dufourea_mulleri                1
+    Dufourea_trochantera            1
+    Rophites_canus                  1
+    Rophites_hartmanni              1
+    Systropha_curvicornis           1
+    Systropha_planidens             1
+    Conanthalictus_conanthi         1
+    Xeralictus_bicuspidariae        1
+    Xeralictus_timberlakei          1
+    Eulaema_meriana                 (1 2)
+    Eulaema_nigrita                 2
+    Euglossa_annectans              2
+    Euglossa_atroveneta             (2 3)
+    Euglossa_townsendi              (2 3)
+    Euglossa_championi              2
+    Euglossa_cybelia                2
+    Euglossa_nigropilosa            2
+    Euglossa_viridissima            3
+    Euglossa_melanotricha           (2 3)
+    Euglossa_cordata                (2 3)
+    Euglossa_hyacinthina            2
+    Exaerete_smaragdina             4
+    Apis_cerana                     3
+    Apis_mellifera                  3
+    Apis_dorsata                    3
+    Apis_florea                     3
+    Axestotrigona_ferruginea        3
+    Liotrigona_madecassa            3
+    Hypotrigona_gribodoi            3
+    Tetragonula_carbonaria          3
+    Melipona_eburnea                3
+    Melipona_scutellaris            3
+    Melipona_quadrifasciata         3
+    Partamona_testacea              3
+    Plebeia_droryana                3
+    Tetragonisca_angustula          3
+    Bombus_brasiliensis             3
+    Bombus_pensylvanicus            3
+    Bombus_atratus                  3
+    Bombus_citrinus                 4
+    Bombus_rupestris                4
+    Bombus_impatiens                3
+    Bombus_melanopygus              3
+    Bombus_jonellus                 3
+    Bombus_hypnorum                 3
+    Bombus_terrestris               3
+    Bombus_lucorum                  3
+    Bombus_polaris                  3
+    Bombus_nevadensis               3
+    Centris_analis                  1
+    Centris_tarsata                 1
+    Centris_vittata                 1
+    Centris_rhodopus                1
+    Centris_conspersa               1
+    Epicharis_analis                1
+    Epicharis_dejeanii              1
+    Epicharis_zonata                1
+    Tapinotaspoides_tucumana        1
+    Diadasia_rinconis               1
+    Diadasia_afflicta               1
+    Melissodes_druriellus           1
+    Eucera_nigrilabris              1
+    Canephorula_apiformis           1
+    Ceratina_calcarata              3
+    Ceratina_okinawana              (2 3)
+    Ceratina_japonica               3
+    Ceratina_flavipes               2
+    Ceratina_iwatai                 2
+    Ceratina_chalybea               2
+    Ceratina_australensis           2
+    Exoneura_bicolor                2
+    Exoneura_robusta                2
+    Braunsapis_vitrea               (2 3)
+    Braunsapis_puangensis           (2 3)
+    Exoneurella_eremophila          (2 3)
+    Exoneurella_lawsoni             (2 3)
+    Exoneurella_setosa              (2 3)
+    Exoneurella_tridentata          (2 3)
+    Manuelia_postica                (1 2)
+    Xylocopa_sulcatipes             (2 3)
+    Xylocopa_violacea               1
+    Xylocopa_virginica              (1 2)
+    Xylocopa_grisescens             (2 3)
+    Xylocopa_frontalis              (2 3)
+    Xylocopa_flavorufa              2
+    Xylocopa_pubescens              (2 3)
+    Xylocopa_nigrita                2
+    Xylocopa_bombylans              2
+    Tetrapedia_diversipes           1
+    Ctenoplectra_armata             1
+    Anthophora_edwardsii            1
+    Anthophora_plumipes             1
+    Anthophora_pacifica             1
+    Anthophora_abrupta              1
+    Amegilla_dawsoni                1
+    Habropoda_laboriosa             1
+    Ericrocis_lata                  4
+    Leiopodus_singularis            4
+    Kelita_toroi                    4
+    Epeolus_compactus               4
+    Epeolus_pusillus                4
+  ;
+END;
+

@@ -1,0 +1,4 @@
+T = readTrees("Data/"BEE_mat7_fulltree_tplo35_sf20lp.tre")[1] # Read trees
+T = readTrees("Data/BEE_mat7_fulltree_tplo35_sf20lp.tre")[1] # Read trees
+getwd()
+q()

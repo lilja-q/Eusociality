@@ -1,0 +1,12 @@
+T = readTrees("data/BEE_mat7_fulltree_tplo35_sf20lp.tre")[1] # Read trees
+T
+data <- readCharacterData("data/final_MuSSE_chars_4_5.nex") #Read data
+Q()
+
+q()
+data_exp
+data_exp.show()
+data.show()
+C
+ data.expandCharacters( NUM_HIDDEN )
+ data.expandCharacters( NUM_HIDDEN ).show()

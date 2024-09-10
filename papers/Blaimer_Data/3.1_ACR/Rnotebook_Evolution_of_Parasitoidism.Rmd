@@ -1,0 +1,62 @@
+---
+title: "R Notebook for analyses of ancestral character reconstruction in Blaimer et al. XXXX"
+output: html_notebook
+---
+
+This is an [R Markdown](http://rmarkdown.rstudio.com) Notebook. When you execute code within the notebook, the results appear beneath the code. 
+
+Try executing this chunk by clicking the *Run* button within the chunk or by placing your cursor inside it and pressing *Cmd+Shift+Enter*. 
+
+#####ANCESTRAL STATE RECONSTRUCTION with CORHMM
+```{r}
+TopA <- read.tree(file="TopAfamily.tre")
+TopC <- read.tree(file="TopCfamily.tre")
+Para <- read.csv(file="Parasitoidism.csv", header=1) ##trait file coding parasitoidism as 0=absent and 1=present; unknowns and multistates allowed
+EntoPhyto <- read.csv(file="EntoPhyto.csv", header=1) ##trait file coding primary phytophagy=0, secondary phytophagy=1, entomophagy=2; unknowns and multistates allowed
+FourStrategies <- read.csv(file="4Strategies.csv", header=1)  ##trait file coding primary phytophagous=0, secondary phytophagous=1, predation=2, parasitoidism=3; unknowns and multistates allowed
+```
+
+
+```{r}
+TopApara_raydisc_ER <- rayDISC(TopA, para, ntraits=1, charnum = 1, model="ER")
+TopApara_raydisc_ER
+TopApara_raydisc_ARD <- rayDISC(TopA, para, ntraits=1, charnum = 1, model="ARD")
+TopApara_raydisc_ARD
+TopCpara_raydisc_ER <- rayDISC(TopC, para, ntraits=1, charnum = 1, model="ER")
+TopCpara_raydisc_ER
+TopCpara_raydisc_ARD <- rayDISC(TopC, para, ntraits=1, charnum = 1, model="ARD")
+TopCpara_raydisc_ARD
+TopAEntoPhyto_raydisc_ER <- rayDISC(TopA, EntoPhyto, ntraits=1, charnum = 1, model="ER")
+TopAEntoPhyto_raydisc_ER
+TopAEntoPhyto_raydisc_ARD <- rayDISC(TopA, EntoPhyto, ntraits=1, charnum = 1, model="ARD")
+TopAEntoPhyto_raydisc_ARD
+TopCEntoPhyto_raydisc_ER <- rayDISC(TopC, EntoPhyto, ntraits=1, charnum = 1, model="ER")
+TopCEntoPhyto_raydisc_ER
+TopCEntoPhyto_raydisc_ARD <- rayDISC(TopC, EntoPhyto, ntraits=1, charnum = 1, model="ARD")
+TopCEntoPhyto_raydisc_ARD
+TopA4Strategies_raydisc_ER <- rayDISC(TopA, FourStrategies, ntraits=1, charnum = 1, model="ER")
+TopA4Strategies_raydisc_ER
+TopA4Strategies_raydisc_ARD <- rayDISC(TopA, FourStrategies, ntraits=1, charnum = 1, model="ARD")
+TopA4Strategies_raydisc_ARD
+TopC4Strategies_raydisc_ER <- rayDISC(TopC, FourStrategies, ntraits=1, charnum = 1, model="ER")
+TopC4Strategies_raydisc_ER
+TopC4Strategies_raydisc_ARD <- rayDISC(TopC, FourStrategies, ntraits=1, charnum = 1, model="ARD")
+TopC4Strategies_raydisc_ARD
+```
+
+
+```{r}
+plotRECON(TopA, TopApara_raydisc_ER$states, TopApara_raydisc_ER$tip.states, piecolors=c("burlywood3","seagreen"), cex=0.6, pie.cex=0.4, file=NULL,height=20, width=8, show.tip.label=TRUE, title=NULL, font=3, type="p", label.offset=1, no.margin=TRUE)
+plotRECON(TopC, TopCpara_raydisc_ER$states, TopCpara_raydisc_ER$tip.states, piecolors=c("burlywood3","seagreen"), cex=0.6, pie.cex=0.4, file=NULL,height=20, width=8, show.tip.label=TRUE, title=NULL, font=3, type="p", label.offset=1, no.margin=TRUE)
+plotRECON(TopA, TopAEntoPhyto_raydisc_ER$states, TopAEntoPhyto_raydisc_ER$tip.states, piecolors=c("seagreen", "goldenrod1", "lightsalmon4"), cex=0.7, pie.cex=0.4, file=NULL,height=20, width=8, show.tip.label=TRUE, title=NULL, font=3, type="p", label.offset=1, no.margin=TRUE)
+plotRECON(TopC, TopCEntoPhyto_raydisc_ER$states, TopCEntoPhyto_raydisc_ER$tip.states, piecolors=c("seagreen", "goldenrod1", "lightsalmon4"), cex=0.7, pie.cex=0.4, file=NULL,height=20, width=8, show.tip.label=TRUE, title=NULL, font=3, type="p", label.offset=1, no.margin=TRUE)
+plotRECON(TopA, TopA4Strategies_raydisc_ER$states, TopA4Strategies_raydisc_ER$tip.states, piecolors=c("burlywood3", "goldenrod1", "royalblue2", "hotpink4"), cex=0.7, pie.cex=0.4, file=NULL,height=20, width=8, show.tip.label=TRUE, title=NULL, font=3, type="p", label.offset=1, no.margin=TRUE)
+plotRECON(TopC, TopC4Strategies_raydisc_ER$states, TopC4Strategies_raydisc_ER$tip.states, piecolors=c("burlywood3", "goldenrod1", "royalblue2", "hotpink4"), cex=0.7, pie.cex=0.4, file=NULL,height=20, width=8, show.tip.label=TRUE, title=NULL, font=3, type="p", label.offset=1, no.margin=TRUE)
+```
+
+Add a new chunk by clicking the *Insert Chunk* button on the toolbar or by pressing *Cmd+Option+I*.
+
+When you save the notebook, an HTML file containing the code and output will be saved alongside it (click the *Preview* button or press *Cmd+Shift+K* to preview the HTML file). 
+
+The preview shows you a rendered HTML copy of the contents of the editor. Consequently, unlike *Knit*, *Preview* does not run any R code chunks. Instead, the output of the chunk when it was last run in the editor is displayed.
+

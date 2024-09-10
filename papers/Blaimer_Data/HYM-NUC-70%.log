@@ -1,0 +1,1168 @@
+IQ-TREE multicore version 1.6.10 for Linux 64-bit built Feb 19 2019
+Developed by Bui Quang Minh, Nguyen Lam Tung, Olga Chernomor,
+Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    compute-7-11.local (SSE3, 63 GB RAM)
+Command: iqtree -s /pool/genomics/blaimerbb/UCE/ParaALLwOUTFINAL/phyluce771/concat70per/mafft-nexus-miss-70per-taxa.phylip -o Blattella_germanica_GCA_000762945 -wbtl -bb 1000 -nt 12
+Seed:    117591 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Thu Feb 28 14:54:19 2019
+Kernel:  SSE2 - 12 threads (24 CPU cores detected)
+
+Reading alignment file /pool/genomics/blaimerbb/UCE/ParaALLwOUTFINAL/phyluce771/concat70per/mafft-nexus-miss-70per-taxa.phylip ... Phylip format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 771 sequences with 40672 columns, 34977 distinct patterns
+23931 parsimony-informative, 6292 singleton sites, 10449 constant sites
+                                      Gap/Ambiguity  Composition  p-value
+   1  Chrysolampus_sp_ANIC00035_0189                         10.60%    failed      0.00%
+   2  Perilampella_sp_ANIC00063_0189                         37.50%    passed     67.02%
+   3  Euryischomyia_sp_ANIC00102_0189                         10.98%    failed      0.00%
+   4  Ablerus_sp1_USNMENT01231208                          47.45%    passed     77.33%
+   5  Absyrtus_sp_BS_UCE_Ich386                            32.53%    failed      4.85%
+   6  Aclista_sp_USNMENT01322344                            55.14%    passed     37.10%
+   7  Adelius_sp_nr_fasciipennis_USNMENT01322246                            30.04%    failed      0.00%
+   8  Ademon_sp1_USNMENT01322504                           9.87%    failed      0.27%
+   9  Agapostemon_tyleri_BND222              14.66%    passed     45.38%
+  10  Agonocryptus_brevicauda_BS_UCE_Ich581                31.38%    passed      8.71%
+  11  Agonocryptus_physocnemis_BS_UCE_Ich001               18.07%    passed     28.23%
+  12  Alloplasta_superba_BS_UCE_Ich312                     15.37%    passed      7.98%
+  13  Alomya_debellator_BS_UCE_Ich201                       7.39%    failed      0.13%
+  14  Alophophion_sp_BS_UCE_Ich327                         15.51%    failed      0.00%
+  15  Amblyaspis_sp_USNMENT01223891                           21.22%    passed     15.06%
+  16  Amitus_sp_USNMENT01223842                           16.36%    passed     60.09%
+  17  Ammophila_cybele_EX406                 16.42%    failed      0.00%
+  18  Ampulex_compressa_BND1382               7.17%    failed      0.06%
+  19  Andricus_lucidus_USNMENT01322256                            18.92%    failed      1.26%
+  20  Antistrophus_minor_USNMENT01322280                             6.37%    passed     25.17%
+  21  Andricus_quercusoperator_USNMENT01322298                            18.46%    passed     14.62%
+  22  Andrena_asteris_HPG17                  15.38%    failed      0.67%
+  23  Andrena_nigroaenea_BND531               6.66%    failed      0.32%
+  24  Anomalon_sp_BS_UCE_Ich336B                            44.74%    failed      0.70%
+  25  Aphaereta_sp_megalops_USNMENT01322462                            26.35%    failed      0.01%
+  26  Aphelonix_persica_USNMENT01322296                            56.48%    failed      0.00%
+  27  Aperileptus_sp_BS_UCE_Ich495                            19.49%    passed     61.48%
+  28  Aphaenogaster_megommata_EX379          10.53%    failed      0.99%
+  29  Aporus_niger_HPG6                      12.26%    failed      2.81%
+  30  Aridelus_sp1_USNMENT01322471                           15.66%    failed      0.00%
+  31  Arotes_melleus_BS_UCE_Ich301                          14.44%    failed      0.00%
+  32  Ascogaster_provancheri_USNMENT01322454                           15.74%    failed      0.00%
+  33  Aspilota_sp2_USNMENT01322446                           17.44%    failed      1.00%
+  34  Astrenis_sp_BS_UCE_Ich443                            35.26%    passed     35.33%
+  35  Atanycolus_sp_hicoriae_USNMENT01322499                            17.30%    failed      0.20%
+  36  Ateleute_sp_BS_UCE_Ich183                            23.75%    passed      5.71%
+  37  Atractodes_sp_BS_UCE_Ich154                           9.73%    failed      1.14%
+  38  Aulacidea_hieracii_USNMENT01322279                             9.31%    passed     20.61%
+  39  Aulacodes_nigriventris_USNMENT01322459                            37.77%    failed      0.00%
+  40  Austrozele_sp1_USNMENT01322441                           16.24%    passed      7.64%
+  41  Ausasaphes_sp_USNMENT01322072                            22.63%    failed      0.01%
+  42  Ausystole_sp_USNMENT01322399                            42.86%    passed     14.82%
+  43  Aximopsis_sp3_USNMENT01322404                           52.19%    passed     64.99%
+  44  Aylax_salviae_USNMENT01322277                            21.77%    passed      5.38%
+  45  Aiolomorphus_rhopaloides_USNMENT01322045                                 26.14%    passed     26.55%
+  46  Axima_zabriskiei_USNMENT01322046                                 16.99%    passed      7.29%
+  47  Bephratoides_sp1_USNMENT01322049                                 11.03%    failed      0.00%
+  48  Sycophila_nsp_USNMENT01322053                                 34.22%    passed     48.03%
+  49  Isosomodes_parkeri_USNMENT01322054                                 33.61%    passed     67.60%
+  50  Systasis_sp_USNMENT01322057                                 69.38%    passed     54.23%
+  51  Pseudometagea_sp_USNMENT01322060                                 40.24%    failed      0.14%
+  52  Balcha_indica_USNMENT01322062                                  9.97%    failed      0.14%
+  53  Eurytoma_sp1_USNMENT01322063                                 12.24%    failed      0.38%
+  54  Anastatus_reduvii_USNMENT01322064                                 40.87%    failed      0.00%
+  55  Systole_sp_prob_albipennis_USNMENT01322069                                 53.73%    failed      3.22%
+  56  Cosmocomoidea_morrilli_USNMENT01322077                                 55.15%    failed      0.42%
+  57  Polynema_near_needhami_USNMENT01322078                                 68.62%    failed      1.97%
+  58  Tanaostigmodes_albiclavus_USNMENT01322080                                 80.18%    passed     40.20%
+  59  Tanaostigma_stanleyi_USNMENT01322081                                 87.68%    failed      4.45%
+  60  Ormyrus_sp1_USNMENT01322082                                 16.25%    failed      0.00%
+  61  Perilampus_hyalinus_USNMENT01322083                                 20.48%    passed     85.61%
+  62  Steffanolampus_sp_USNMENT01322084                                 11.79%    passed     58.96%
+  63  Palmon_sp_USNMENT01322085                                 36.01%    passed     83.05%
+  64  Podagrionella_sp_USNMENT01322086                                 17.27%    passed     30.61%
+  65  Physothorax_pallidus_USNMENT01322087                                 27.40%    passed     46.51%
+  66  Torymoides_sulcius_USNMENT01322088                                 35.41%    failed      0.04%
+  67  Megastigmus_transvaalensis_USNMENT01322090                                 22.27%    failed      0.02%
+  68  Pteromalus_puparum_USNMENT01322091                                 48.19%    passed     66.37%
+  69  Theocolax_elegans_USNMENT01322095                                 45.33%    passed     64.30%
+  70  Chalcedectus_sp_USNMENT01322096                                  6.50%    failed      0.05%
+  71  Macroglenes_penetrans_USNMENT01322098                                 31.63%    passed     16.64%
+  72  Lelaps_sp_USNMENT01322099                                 11.96%    failed      2.56%
+  73  Colotrechnus_ignotus_USNMENT01322101                                 19.25%    failed      0.00%
+  74  Scutellista_caerulea_USNMENT01322102                                 61.27%    passed     18.51%
+  75  Teasienna_sp_USNMENT01322107                                 29.79%    passed     13.76%
+  76  Metapelma_sp_USNMENT01322173                                 24.03%    failed      0.35%
+  77  Leucospis_affinis_USNMENT01322176                                  9.01%    failed      0.07%
+  78  Brachymeria_sp_USNMENT01322177                                 15.02%    passed     30.74%
+  79  Torymus_sp_USNMENT01322178                                 13.60%    failed      0.00%
+  80  Oodera_sp_USNMENT01322179                                  9.21%    failed      0.48%
+  81  Phasgonophora_sulcata_USNMENT01322180                                  8.82%    passed     97.40%
+  82  Monodontomerus_sp2_USNMENT01322181                                  6.90%    passed     77.56%
+  83  Elasmus_albizziae_USNMENT01322182                                 56.45%    failed      0.01%
+  84  Pnigalio_minio_USNMENT01322183                                 55.77%    failed      0.00%
+  85  Aprostocetus_prob_gala_USNMENT01322186                                 40.28%    passed     39.70%
+  86  Chalcis_barbara_USNMENT01322189                                 12.83%    passed     55.88%
+  87  Acanthochalcis_nigricans_USNMENT01322190                                 14.65%    passed     79.76%
+  88  Dirhinus_sp_USNMENT01322191                                 48.89%    passed     76.13%
+  89  Haltichella_sp_USNMENT01322193                                 26.85%    passed     88.27%
+  90  Bruchodape_sp_USNMENT01322199                                  7.98%    failed      0.37%
+  91  Notaspidium_sp_USNMENT01322202                                 32.74%    failed      4.72%
+  92  Phylloxeroxenus_sp_USNMENT01322207                                 31.26%    failed      0.00%
+  93  Aspicera_hartigi_USNMENT01322148                                 14.37%    failed      3.13%
+  94  Melanips_sp_USNMENT01322150                                 34.31%    passed     12.72%
+  95  Omalaspis_sp_USNMENT01322151                                 38.91%    failed      0.00%
+  96  Paraspicera_sp_USNMENT01322152                                  9.69%    failed      0.27%
+  97  Apocharips_trapezoidea_USNMENT01322156                                 16.11%    passed      5.36%
+  98  Lytoxysta_brevipalpus_USNMENT01322157                                 18.61%    failed      2.68%
+  99  Euceroptres_montanus_USNMENT01322161                                 11.04%    passed     78.71%
+ 100  Figites_sp_USNMENT01322163                                 10.87%    passed      5.73%
+ 101  Parnips_nigripes_USNMENT01322129                                 23.66%    passed     11.68%
+ 102  Mikeius_hartigi_USNMENT01322169                                 40.35%    failed      0.00%
+ 103  Plectocynips_pilosus_USNMENT01322170                                 38.59%    failed      0.00%
+ 104  Neuroscelio_doddi_OSUC_0147252                                 71.08%    failed      0.64%
+ 105  Sparasion_cullaris_USNMENT01322137                                  9.11%    passed     55.84%
+ 106  Paridris_minator_USNMENT01322139                                 16.35%    passed      5.75%
+ 107  Orthogonalys_pulchella_USNMENT01322215                                  5.97%    failed      0.00%
+ 108  Evaniella_semaeoda_USNMENT01322217                                 11.77%    failed      0.01%
+ 109  Gasteruption_assectator_USNMENT01322227                                 11.61%    passed     20.45%
+ 110  Pristaulacus_stigmaterus_USNMENT01322229                                  5.54%    failed      0.00%
+ 111  Xyela_bakeri_USNMENT01322230                                 10.12%    failed      0.02%
+ 112  Phaenoserphus_sp_USNMENT00764821                                 32.40%    passed     42.19%
+ 113  Ibalia_anceps_USNMENT00653903                                  7.81%    passed     16.08%
+ 114  Ropronia_garmani_USNMENT0653896                                  9.66%    failed      0.00%
+ 115  Helorus_ruficornis_USNMENT0653897                                 12.41%    passed     47.57%
+ 116  Striatovertex_sp_USNMENT00653899                                  9.86%    failed      0.00%
+ 117  Gronotoma_sp_USNMENT00877589                                 15.75%    failed      0.01%
+ 118  Andricus_sp_USNMENT00877721                                 18.20%    passed      6.42%
+ 119  Trybliographa_sp_USNMENT00877722                                 13.29%    failed      0.01%
+ 120  Bracon_sp1_USNMENT01322232                                 15.58%    failed      0.01%
+ 121  Aleiodes_sp1_USNMENT01322233                                 10.30%    failed      0.00%
+ 122  Aphidius_sp4_USNMENT01322235                                 35.44%    failed      0.00%
+ 123  Apanteles_sp4_USNMENT01322237                                 19.74%    passed     19.99%
+ 124  Parahormius_sp1_USNMENT01322243                                 84.82%    passed      9.11%
+ 125  Hymenochaonia_sp2_USNMENT01322244                                 15.36%    passed     17.98%
+ 126  Phanacis_sp_USNMENT00653613                                 69.67%    passed     60.50%
+ 127  Megalyridae_sp_USNMENT01339662                                 32.29%    failed      0.00%
+ 128  Archaeoteleia_mellea_OSUC_203348                                  7.11%    passed     91.39%
+ 129  Nixonia_watshami_USNMENT01109338                                  7.06%    passed     69.14%
+ 130  Platygaster_sp_USNMENT01335833                                 21.32%    failed      0.00%
+ 131  Eurytoma_obtusiventris_USNMENT01339653                                  7.46%    failed      0.09%
+ 132  Bruchophagus_gibbus_USNMENT01339648                                  9.11%    failed      0.02%
+ 133  Tamarixia_radiata_USNMENT01339650                                 20.25%    passed     25.75%
+ 134  Leptocybe_invasa_USNMENT01339654                                 18.88%    failed      0.16%
+ 135  Afroserphus_masneri_USNMENT00896672                                 13.74%    failed      0.00%
+ 136  Rileya_grisselli_USNMENT01339595                                 10.80%    passed     81.11%
+ 137  Prodecatoma_cooki_USNMENT01339596                                  8.59%    failed      0.00%
+ 138  Heimbra_opaca_USNMENT01339599                                 22.19%    failed      0.00%
+ 139  Macrorileya_nsp_USNMENT01339600                                  7.23%    failed      0.68%
+ 140  Prodecatomidea_sp_USNMENT01339601                                 26.80%    passed     68.30%
+ 141  Ganaspis_sp2_USNMENT01339603                                 16.41%    failed      0.00%
+ 142  Xyalaspis_sp_USNMENT01339604                                  9.77%    failed      0.59%
+ 143  Alloxysta_sp1_USNMENT01339609                                  9.93%    passed     31.84%
+ 144  Sarothrus_sp2_USNMENT01339611                                 11.05%    passed      5.65%
+ 145  Anacharis_sp_USNMENT01339612                                  5.63%    failed      1.72%
+ 146  Zaeucoila_robusta_USNMENT01339614                                 10.00%    failed      0.13%
+ 147  Thoreauella_sp1_USNMENT01339615                                 15.82%    failed      0.46%
+ 148  Lonchidia_sp1_USNMENT01339616                                 11.47%    failed      0.76%
+ 149  Xyalophora_sp1_USNMENT01339617                                  7.41%    failed      0.04%
+ 150  Orussus_terminalis_USNMENT01339620                                  9.71%    failed      0.00%
+ 151  Orussus_minutus_USNMENT01339621                                  5.88%    failed      0.00%
+ 152  Hartigia_trimaculata_USNMENT01339622                                  6.99%    passed     12.36%
+ 153  Janus_integer_USNMENT01339623                                  5.79%    failed      0.46%
+ 154  Onycholyda_luteicornis_USNMENT01339624                                 11.24%    failed      0.03%
+ 155  Pamphilius_pullatus_USNMENT01339625                                 48.84%    failed      1.48%
+ 156  Hexacharis_flavipes_USNMENT01339633                                 53.47%    failed      1.41%
+ 157  Trichoplasta_sp1_USNMENT01339635                                 13.53%    failed      0.07%
+ 158  Acanthaegilips_brasiliensis_USNMENT01339636                                  7.12%    failed      1.00%
+ 159  Leptolamina_ponapenis_USNMENT01339637                                 10.34%    failed      2.17%
+ 160  Paramblynotus_virginianus_USNMENT01339638                                  9.79%    passed      8.08%
+ 161  Aegilips_chilensis_USNMENT01339639                                  6.65%    failed      0.09%
+ 162  Phaenoglyphis_sp1_USNMENT01339640                                 11.93%    passed     54.03%
+ 163  Kleidotoma_sp1_USNMENT01339641                                 48.60%    failed      0.00%
+ 164  Rhoptromeris_sp1_USNMENT01339642                                 32.13%    failed      1.51%
+ 165  Odonteucoila_sp1_USNMENT01339643                                 12.22%    failed      0.00%
+ 166  Nordlandiella_semirufa_USNMENT01339644                                  9.85%    failed      0.01%
+ 167  Dilyta_sp1_USNMENT01339646                                 28.88%    passed     23.18%
+ 168  Aegilips_sp3_USNMENT01339647                                  9.23%    failed      0.12%
+ 169  Chryseida_sp6_USNMENT01339649                                  5.90%    failed      0.01%
+ 170  Xiphydria_maculata_USNMENT01339666                                  7.86%    failed      0.00%
+ 171  Xiphydria_maculata_USNMENT01339667                                  7.55%    failed      0.00%
+ 172  Hyptia_harpyoides_USNMENT01339668                                 21.14%    failed      0.00%
+ 173  Megischus_mexicanus_USNMENT01339669                                 28.05%    failed      0.02%
+ 174  Taeniogonalos_gundlachii_USNMENT01339670                                 13.78%    failed      0.01%
+ 175  Gasteruption_tarsatorium_USNMENT01339671                                 44.78%    passed      6.71%
+ 176  Aulacus_burquei_USNMENT01339672                                  8.46%    failed      0.00%
+ 177  Heteribalia_sp_USNMENT01339673                                  5.19%    failed      1.16%
+ 178  Ampibolips_hidalgoensis_USNMENT01339676                                 45.49%    failed      0.00%
+ 179  Erythmelus_sp2_USNMENT01339651                                 61.10%    passed      6.75%
+ 180  Anagrus_sp_USNMENT01322527                                 42.13%    failed      0.00%
+ 181  Ophelimus_sp_USNMENT01322529                                 57.98%    failed      2.15%
+ 182  Austromerus_sp_USNMENT01197939                                 36.42%    passed     92.79%
+ 183  Tetrabaeus_sp_USNMENT01197878                                 15.02%    passed     13.18%
+ 184  Alfredella_sp_USNMENT01197967                                 24.33%    passed     87.95%
+ 185  Zelandonota_sp_USNMENT01109898                                 18.40%    failed      1.06%
+ 186  Aphanomerus_sp_USNMENT01109890                                 20.32%    passed     23.02%
+ 187  Calomerella_sp_USNMENT01197842                                 21.99%    passed     89.81%
+ 188  Nanomerus_spinulus_USNMENT01197953                                 17.47%    failed      1.26%
+ 189  Metaclisis_sp_USNMENT01197956                                 12.79%    passed     25.76%
+ 190  Platygaster_sp_USNMENT01335753                                 21.38%    passed     17.28%
+ 191  Inostemma_sp_USNMENT01335757                                 23.91%    passed     86.33%
+ 192  Allostemma_sp_USNMENT01335756                                 28.52%    passed     17.29%
+ 193  Annettella_sp_USNMENT01197959                                 30.81%    failed      0.00%
+ 194  Zelostemma_sp_USNMENT01109896                                 13.39%    passed     89.78%
+ 195  Aceroteta_sp_USNMENT01197068                                 26.74%    failed      0.00%
+ 196  Proplatygaster_sp_USNMENT01109879                                  9.16%    failed      0.57%
+ 197  Magellanium_sp_USNMENT01197849                                 10.31%    passed     87.85%
+ 198  Janzenella_innupta_OSUC_264384                                 27.56%    passed     92.75%
+ 199  Isolia_sp_OSUC_698060                                 23.74%    passed     11.96%
+ 200  Micrevania_DERV064_PSUC_FEM188505                                 12.99%    passed     21.64%
+ 201  Brachygaster_BRV003_PSUC_FEM188507                                 40.08%    passed     23.73%
+ 202  Zeuxevania_sp_PSUC_FEM188508                                 25.61%    passed     34.65%
+ 203  Evania_albofacialis_PSUC_FEM188504                                 14.02%    failed      0.00%
+ 204  Szepligetella_DERV047_PSUC_FEM188503                                 16.15%    failed      0.00%
+ 205  Holophleps_sp_PSUC_FEM146688                                 13.51%    passed     98.09%
+ 206  Coelinius_sp1_USNMENT01322508                                 13.25%    failed      0.00%
+ 207  Alysia_sp1_USNMENT01322532                                 16.10%    failed      0.50%
+ 208  Dapsilarthra_spA_USNMENT01322536                                 63.92%    failed      0.07%
+ 209  Dinotrema_sp1_USNMENT01322537                                 42.58%    passed     19.30%
+ 210  Oenonogastra_sp1_USNMENT01322540                                 32.70%    failed      0.04%
+ 211  Pentapleura_foveolata_USNMENT01322541                                 19.88%    passed      8.06%
+ 212  Phaenocarpa_sp2_USNMENT01322542                                 12.99%    passed     12.54%
+ 213  Lysiphlebus_sp1_USNMENT01322546                                 54.20%    failed      0.00%
+ 214  Pauesia_sp1_USNMENT01322547                                 32.80%    failed      0.00%
+ 215  Blacus_spA_USNMENT01322548                                  9.53%    failed      2.50%
+ 216  Schizoprymnus_sp2_USNMENT01322549                                 18.21%    failed      0.00%
+ 217  Aliolus_spA_USNMENT01322550                                 12.82%    failed      0.73%
+ 218  Nealiolus_sp1_USNMENT01322551                                 13.94%    failed      0.18%
+ 219  Eubazus_sp1_USNMENT01322552                                 43.71%    passed      8.13%
+ 220  Coeloides_scolytivorus_USNMENT01322554                                 16.31%    failed      0.00%
+ 221  Glyptomorpha_pectoralis_USNMENT01322556                                 39.10%    failed      0.00%
+ 222  Capitonius_chontalensis_USNMENT01322558                                 33.35%    failed      0.00%
+ 223  Charmon_sp1_USNMENT01322560                                  9.88%    passed     11.79%
+ 224  Chelonus_Microchelonus_sp1_USNMENT01322561                                 12.60%    failed      0.00%
+ 225  Heterospilus_sp18_USNMENT01322563                                 12.38%    failed      0.06%
+ 226  Odontobracon_montanus_USNMENT01322564                                 12.97%    failed      4.70%
+ 227  Ontsira_sp1_USNMENT01322565                                  3.85%    failed      0.73%
+ 228  Leiophron_sp1_USNMENT01322568                                  9.83%    failed      0.00%
+ 229  Peristenus_sp1_USNMENT01322569                                 15.54%    failed      0.00%
+ 230  Microctonus_sp4_USNMENT01322570                                  8.24%    failed      0.00%
+ 231  Perilitus_rutilus_USNMENT01322571                                 19.26%    failed      0.00%
+ 232  Syntretus_sp1_USNMENT01322572                                 14.27%    failed      0.00%
+ 233  Elasmosoma_sp1_USNMENT01322574                                 11.02%    failed      0.00%
+ 234  Diospilus_sp1_USNMENT01322575                                  7.99%    failed      0.00%
+ 235  Helcon_nunciator_USNMENT01322576                                 53.70%    passed      5.79%
+ 236  Homolobus_sp1_USNMENT01322577                                  5.36%    failed      0.00%
+ 237  Hormius_sp2_USNMENT01322578                                 14.21%    failed      0.66%
+ 238  Oligoneurus_sp1_USNMENT01322580                                 19.81%    failed      0.00%
+ 239  Ichneutes_sp1_USNMENT01322581                                 15.19%    failed      0.00%
+ 240  Cedria_paradoxa_USNMENT01322582                                 11.47%    passed     34.55%
+ 241  Aulosaphoides_sp1_USNMENT01322583                                  9.60%    failed      0.00%
+ 242  Macrocentrus_spA_USNMENT01322585                                 11.39%    passed     95.33%
+ 243  Microplitis_sp2_USNMENT01322587                                 18.42%    failed      0.00%
+ 244  Pholetesor_sp1_USNMENT01322588                                 25.16%    failed      0.00%
+ 245  Snellenius_sp1_USNMENT01322589                                 21.64%    failed      0.00%
+ 246  Mirax_sp1_USNMENT01322590                                 45.52%    failed      0.67%
+ 247  Biosteres_spinaciae_USNMENT01322591                                 12.22%    failed      0.42%
+ 248  Diachasma_muliebre_USNMENT01322592                                 10.28%    failed      1.67%
+ 249  Fopius_arisanus_USNMENT01322593                                 10.04%    failed      1.28%
+ 250  Doryctobracon_crawfordi_USNMENT01322594                                 29.53%    failed      0.03%
+ 251  Opius_sp5_USNMENT01322595                                 15.18%    failed      0.00%
+ 252  Opius_sp27_USNMENT01322597                                  7.76%    failed      0.00%
+ 253  Orgilus_sp1_USNMENT01322598                                 15.17%    failed      0.00%
+ 254  Chremylus_elaphus_USNMENT01322599                                 19.62%    failed      0.27%
+ 255  Pambolus_sp1_USNMENT01322600                                 10.37%    passed     11.92%
+ 256  Acrisis_sp1_USNMENT01322601                                 33.95%    failed      0.00%
+ 257  Cantharoctonus_sp1_USNMENT01322602                                 28.72%    failed      0.22%
+ 258  Rhysipolis_sp1_USNMENT01322603                                  9.73%    failed      0.00%
+ 259  Histeromerus_sp1_USNMENT01322604                                 40.15%    failed      0.03%
+ 260  Oncophanes_sp_USNMENT01322606                                 12.07%    failed      0.00%
+ 261  Lysitermoides_sp1_USNMENT01322608                                 36.13%    failed      0.00%
+ 262  Triraphis_sp2_USNMENT01322611                                  9.19%    failed      0.00%
+ 263  Urosigalphus_sp2_USNMENT01322614                                  8.59%    passed     22.29%
+ 264  Polemochartus_liparae_USNMENT01322615                                 12.25%    failed      0.00%
+ 265  Liobracon_aquilonius_USNMENT01322616                                 20.19%    passed     72.62%
+ 266  Colastes_sp1_USNMENT01322617                                  8.31%    passed     17.20%
+ 267  Vadumasonium_sp1_USNMENT01322618                                  8.06%    passed      6.05%
+ 268  Polystenidea_parksi_USNMENT01322620                                  9.29%    failed      0.00%
+ 269  Stiropius_sp_USNMENT01322624                                  9.37%    failed      0.00%
+ 270  Clinocentrus_sp2_USNMENT01322625                                  9.49%    failed      0.00%
+ 271  Coelinius_n_sp_USNMENT01322626                                  6.08%    failed      0.00%
+ 272  Ganaspis_brasiliensis_USNMENT01339685                                  9.60%    failed      0.00%
+ 273  Neothlipsis_cincta_USNMENT01322251                            54.52%    failed      0.00%
+ 274  Barylypa_sp_BS_UCE_Ich478                                8.71%    passed     24.72%
+ 275  Basalys_sp_USNMENT01322288                           59.69%    passed     69.78%
+ 276  Belyta_sp_USNMENT01322343                            51.99%    failed      0.80%
+ 277  Bephrata_sp_USNMENT01322396                            24.30%    failed      0.29%
+ 278  Bombus_pennsylvanicus_HPG16              3.47%    passed     52.76%
+ 279  Bruchophagus_squamea_USNMENT01322377                            60.41%    passed     86.03%
+ 280  Brachycistis_timberlakei_EX440          6.88%    passed     25.69%
+ 281  Buathra_laborator_BS_UCE_Ich019                       7.07%    passed     31.25%
+ 282  Callihormius_bifasciatus_USNMENT01322486                            14.73%    passed     86.46%
+ 283  Cathilaria_opuntiae_USNMENT01322360                            61.27%    failed      1.01%
+ 284  Cardiochiles_sp1_USNMENT01322431                           27.29%    failed      0.00%
+ 285  Calliephialtes_ferrugineus_BS_UCE_Ich375            53.16%    passed     76.77%
+ 286  Callomelitta_antipodes_BND687           6.51%    passed     92.00%
+ 287  Campoletis_sonorensis_BS_UCE_Ich188                          23.27%    passed     60.19%
+ 288  Capicola_richtersveldensis_BND941       6.92%    passed     71.18%
+ 289  Casinaria_sp_BS_UCE_Ich436                              49.79%    passed     78.12%
+ 290  Caupolicana_yarrowi_BND654              5.70%    passed     83.63%
+ 291  Centistes_sp1_USNMENT01322439                           14.53%    failed      0.00%
+ 292  Ceroptres_sp_USNMENT01322294                             7.49%    passed      9.12%
+ 293  Centris_rhodopus_BND615                 7.24%    passed     81.12%
+ 294  Ceratina_duplex_calcarta_BND657         6.49%    passed     12.68%
+ 295  Cerceris_hatuey_EX444                  28.54%    failed      0.14%
+ 296  Cestrus_arcuatus_BS_UCE_Ich003                        9.75%    failed      0.69%
+ 297  Chaenusa_americana_USNMENT01322482                            19.05%    failed      3.50%
+ 298  Chorebus_posticus_USNMENT01322423                            17.59%    failed      0.01%
+ 299  Chorebus_KPBS_sp7_USNMENT01322422                           19.06%    failed      0.03%
+ 300  Chalybion_californicus_HPG12            7.80%    failed      0.11%
+ 301  Charops_sp_BS_UCE_Ich455                                36.86%    passed     50.64%
+ 302  Chrysis_sp_EX561                        9.33%    failed      0.00%
+ 303  Chyphotes_mellipes_HPG7                 6.69%    failed      0.00%
+ 304  Chyphotes_sp_EX553                      5.68%    failed      0.14%
+ 305  Cidaphus_sp_BS_UCE_Ich385                            43.33%    passed     15.09%
+ 306  Clasis_n_sp_BS_UCE_Ich189                            21.88%    failed      0.06%
+ 307  Clypeadon_haigi_BND819                  5.07%    passed     83.35%
+ 308  Cotesia_diacrisiae_USNMENT01322494                            19.66%    failed      0.00%
+ 309  Coelinius_robinae_USNMENT01322424                            13.78%    failed      0.00%
+ 310  Coptera_sp_USNMENT01322289                            29.69%    passed     94.29%
+ 311  Codrus_sp_USNMENT01322353                            70.74%    failed      0.03%
+ 312  Coleocentrus_rufus_BS_UCE_Ich379                     41.16%    passed     75.80%
+ 313  Colletes_dimidiatus_BND283              8.00%    passed     90.63%
+ 314  Collyria_coxator_BS_UCE_Ich384                       59.32%    passed     50.74%
+ 315  Colocistis_eremi_EX558                  7.51%    passed     62.08%
+ 316  Cratospila_neocirce_USNMENT01322464                             9.39%    passed     94.07%
+ 317  Cryptophion_inaequalipes_BS_UCE_Ich445               42.52%    failed      4.99%
+ 318  Cryptopimpla_quadrilineata_jocosa_BS_UCE_Ich343      18.03%    passed     21.14%
+ 319  Crytea_albitrochnaterata_BS_UCE_Ich228                3.83%    failed      0.00%
+ 320  Ctenocolletes_albomarginatus_BND1320    8.25%    passed     45.20%
+ 321  Cylloceria_melancholica_BS_UCE_Ich381            70.40%    passed     28.89%
+ 322  Dacnusa_KPBS_sp1_USNMENT01322427                           21.48%    failed      0.00%
+ 323  Dasylabris_sp_EX559                     5.12%    failed      0.12%
+ 324  Dasymutilla_sackenii_EX569             12.86%    passed     54.87%
+ 325  Dasypoda_visnaga_BND977                 2.86%    passed     90.06%
+ 326  Deinodryinus_atriventris_EX475         16.40%    passed     18.22%
+ 327  Diplolepis_bicolor_USNMENT01322275                            14.78%    failed      0.00%
+ 328  Digonogastra_eurygaster_USNMENT01322500                            15.48%    failed      0.02%
+ 329  Diachasmimorpha_longicaudata_USNMENT01322503                            21.87%    failed      0.88%
+ 330  Diolcogaster_sp3_USNMENT01322449                           22.78%    failed      0.88%
+ 331  Diapria_conica_USNMENT01322287                           32.83%    passed     52.58%
+ 332  Diastrophus_turgidus_USNMENT01322311                           14.10%    failed      0.59%
+ 333  Diacritus_muliebris_BS_UCE_Ich311                     6.00%    failed      0.23%
+ 334  Dicamptus_sp_BS_UCE_Ich454                              25.72%    failed      0.00%
+ 335  Dieunomia_nevadensis_BND1112            4.28%    passed     93.73%
+ 336  Digonocryptus_narratorius_BS_UCE_Ich072              10.47%    failed      2.48%
+ 337  Dioxys_pomonae_BND1152                  8.89%    passed     85.20%
+ 338  Diplazon_laetatorius_BS_UCE_Ich322                   50.34%    failed      0.06%
+ 339  Disholcaspis_quercusmamma_EX579        13.85%    passed     91.42%
+ 340  Doryctes_erythromelas_USNMENT01322488                            22.79%    failed      0.18%
+ 341  Dolichomitus_sp_BS_UCE_Ich308                         8.31%    passed      6.37%
+ 342  Dryocosmus_rileypokei_USNMENT01322317                           16.66%    passed     11.64%
+ 343  Ecphylus_rohweri_USNMENT01322490                            22.97%    passed     13.51%
+ 344  Echthrus_reluctator_BS_UCE_Ich117                     6.54%    failed      0.76%
+ 345  Prionyx_canadensis_BND831            20.24%    failed      0.00%
+ 346  Eiphosoma_sp_BS_UCE_Ich190                           14.66%    failed      1.43%
+ 347  Encarsia_sp1_USNMENT01231206                          33.35%    passed     32.83%
+ 348  Enicospilus_sp_BS_UCE_Ich570                            32.89%    passed     10.72%
+ 349  Enizemum_sp_BS_UCE_Ich481                               23.33%    passed     23.25%
+ 350  Entomacis_sp_EX486                     14.60%    failed      0.01%
+ 351  Epimicta_griffithsi_USNMENT01322426                            15.94%    failed      0.00%
+ 352  Ephedrus_sp45_USNMENT01322429                          12.49%    failed      0.00%
+ 353  Ephialtes_sp_BS_UCE_Ich584                              21.83%    failed      0.00%
+ 354  Ephuta_rufisquamis_EX573                7.56%    failed      3.64%
+ 355  Epyris_sp1_EX562                        11.60%    passed     96.53%
+ 356  Ericrocis_lata_BND1100                 14.08%    failed      1.34%
+ 357  Meniscomorpha_sp_BS_UCE_Ich318                          31.34%    failed      0.46%
+ 358  Euplectrus_sp_EX492                    17.76%    passed     81.27%
+ 359  Euryglossa_ephippiata_BND691            4.93%    passed     61.29%
+ 360  Eusterinx_oligomera_BS_UCE_Ich348                    15.58%    passed      6.21%
+ 361  Eutanygaster_sp_BS_UCE_Ich412                        50.19%    passed     14.64%
+ 362  Exasticolus_sp1_USNMENT01322476                           18.93%    failed      0.13%
+ 363  Exotela_sp2_USNMENT01322456                           19.91%    failed      0.00%
+ 364  Exallonyx_sp_USNMENT01322352                            44.92%    failed      0.58%
+ 365  Excavarus_annulipes_BS_UCE_Ich382                    25.68%    passed     83.94%
+ 366  Exochus_izbus_BS_UCE_Ich391                          45.27%    passed     77.48%
+ 367  Exoneura_bicolor_BND682                 6.54%    passed     99.03%
+ 368  Formica_moki_T765                                  9.32%    passed     56.61%
+ 369  Bootanomyia_stigmatizans_GDEL03057_0101                         15.42%    failed      0.00%
+ 370  Gatesina_colombiana_USNMENT01322373                            64.55%    failed      0.05%
+ 371  Gastrotrypes_sp_USNMENT01223878                            24.56%    passed     43.04%
+ 372  Gavrana_sp_BS_UCE_Ich203                             16.13%    failed      0.01%
+ 373  Gelis_sp_BS_UCE_Ich134                               56.20%    passed     49.29%
+ 374  Glyptapanteles_sp1_USNMENT01322478                           15.40%    failed      0.53%
+ 375  Glypta_sp_BS_UCE_Ich304                              22.67%    passed      9.78%
+ 376  Gnypetomorpha_sp_BS_UCE_Ich166                       14.49%    failed      1.16%
+ 377  Goniozus_sp1_EX555                      13.51%    passed     88.51%
+ 378  Halictus_ligatus_sayi_EX395             6.73%    passed     14.91%
+ 379  Heimbrella_sp_USNMENT01322371                            49.95%    passed     71.91%
+ 380  Helictes_sp_BS_UCE_Ich324                             7.37%    failed      0.00%
+ 381  Hedycryptus_rufiopetiolatus_BS_UCE_Ich023            10.35%    passed     26.23%
+ 382  Heriades_leavitti_EX394                 8.04%    passed     41.89%
+ 383  Heterogyna_nocticola_BND1290            6.38%    passed     92.09%
+ 384  Heteropelma_datanae_BS_UCE_Ich479                    24.70%    passed      5.76%
+ 385  Homotropus_sp_BS_UCE_Ich482                             22.12%    failed      1.28%
+ 386  Hypomicrogaster_zonaria_USNMENT01322460                            24.39%    failed      0.48%
+ 387  Hybrizon_rileyi_BS_UCE_Ich316                        16.65%    failed      0.60%
+ 388  Hylaeus_elegans_BND1310                 4.87%    passed     63.65%
+ 389  Ichneumon_bucculentus_BS_UCE_Ich233                   7.90%    failed      0.02%
+ 390  Iphitrachelus_sp_USNMENT01335755                            37.31%    failed      0.00%
+ 391  Isocolcus_scabiosae_USNMENT01322273                            10.80%    passed     13.61%
+ 392  Oobius_primorskyensis_USNMENT01119387                                24.66%    failed      0.00%
+ 393  Hexacladia_sp1_USNMENT01231129                                32.08%    failed      0.00%
+ 394  Zaommoencyrtus_sp1_USNMENT01231139                                32.05%    passed     32.07%
+ 395  Ooencyrtus_sp1_USNMENT01231161                                38.64%    passed      7.22%
+ 396  Anagyrus_sp1_USNMENT01231185                                24.47%    failed      0.01%
+ 397  Acerophagus_sp1_USNMENT01231200                                14.04%    failed      0.85%
+ 398  Coccobius_sp1_USNMENT01231205                                18.75%    failed      0.00%
+ 399  Centrodora_sp1_USNMENT01231207                                15.29%    failed      1.75%
+ 400  Aphelinus_sp1_USNMENT01231209                                20.94%    failed      0.00%
+ 401  Coccophagus_sp1_USNMENT01231210                                50.35%    passed     72.16%
+ 402  Pleistodontes_sp1_JRAS00997_0189                         13.73%    passed     18.44%
+ 403  Halticoptera_patellana_JRAS01314_1701                         13.04%    failed      0.30%
+ 404  Courtella_hladikae_JRAS01934_0189                         12.00%    failed      3.52%
+ 405  Blastophaga_psenes_JRAS02767_0189                         21.85%    passed     33.33%
+ 406  Orasema_sp_JRAS03331_0101                         32.08%    failed      0.00%
+ 407  Philotrypesis_sp_JRAS05463_0289                         12.34%    failed      0.25%
+ 408  Glyphomerus_stigma_JRAS05562_0599                          9.38%    failed      0.13%
+ 409  Anidarnes_nsp_JRAS06087_0389                         32.99%    failed      0.00%
+ 410  Tetrapus_sp1_JRAS06126_0189                         16.07%    failed      0.01%
+ 411  Stilbula_cynipiformis_JRAS06279_0199                         25.81%    failed      0.00%
+ 412  Spalangia_sp_JRAS06352_0289_0289                         17.01%    failed      0.01%
+ 413  Ormyrus_salmanticus_JRAS06480_1789                         10.18%    failed      0.26%
+ 414  Neosycophila_sp_JRAS06679_0289                         12.46%    passed     32.14%
+ 415  Neanastatus_sp_JRAS07313_0489                         14.02%    failed      0.01%
+ 416  Cleonymus_sp_JRAS07458_0689                         12.45%    failed      0.04%
+ 417  Dipara_sp_JRAS07460_0289                         20.57%    failed      0.00%
+ 418  Erotolepsia_sp01_JRAS07552_0589                         28.63%    failed      0.01%
+ 419  Herbertia_sp_JRAS07575_0189                         12.88%    passed     15.86%
+ 420  Mirufens_longicauda_JRAS07597_0501                         30.12%    failed      0.09%
+ 421  Cea_pulicaris_JRAS07600_0189                         11.35%    failed      2.04%
+ 422  Chartocerus_sp_JRAS07600_0201                         16.72%    failed      0.02%
+ 423  Eupelmus_linearis_JRAS07601_0289                         12.02%    failed      0.03%
+ 424  Eunotus_acutatus_JRAS07602_1001                         18.66%    failed      0.43%
+ 425  Asaphes_vulgaris_JRAS07609_0389                         28.36%    failed      0.00%
+ 426  Polistomorpha_fasciata_JRAS07624_0301                          6.34%    passed     15.69%
+ 427  Chiloe_micropteron_JRAS07627_0189                         20.42%    failed      0.13%
+ 428  Promuscidea_sp_JRAS07754_0101                         11.80%    failed      0.00%
+ 429  Monacon_sp_JRAS07775_189                         10.67%    passed     98.78%
+ 430  Oglobinisca_sp_JRAS07790_0201                          8.63%    failed      0.00%
+ 431  Clytina_giraudi_JRAS07820_0189                         11.64%    failed      0.02%
+ 432  Tetracampe_sp_JRAS07821_0101                         15.81%    failed      0.09%
+ 433  Euderus_sp_JRAS07829_0189                         17.87%    failed      0.30%
+ 434  Eretmocerus_eremicus_JSTR00476_0189                         25.97%    failed      0.00%
+ 435  Khamul_erwini_USNMENT01322370                            46.74%    passed     57.22%
+ 436  Klutiana_sp_BS_UCE_Ich388                            61.86%    failed      2.58%
+ 437  Labena_grallator_BS_UCE_Ich192                       10.41%    failed      0.00%
+ 438  Lanugo_schlingeri_BS_UCE_Ich015                       6.24%    passed     12.94%
+ 439  Leiophron_incerta_USNMENT01322473                            33.07%    passed     22.77%
+ 440  Leluthia_mexicana_USNMENT01322436                             7.65%    passed     34.24%
+ 441  Leptacis_sp_USNMENT01223928                            20.50%    passed      7.91%
+ 442  Leptobatopsis_sp_BS_UCE_Ich462                      27.99%    failed      2.49%
+ 443  Linycus_exhortator_BS_UCE_Ich213                      7.73%    failed      0.00%
+ 444  Liojoppa_aff_centralis_BS_UCE_Ich296                  13.32%    failed      0.04%
+ 445  Lithurgus_pullatus_BND1030              5.31%    passed     99.37%
+ 446  Loboscelidia_sp_EX554                  10.19%    failed      0.00%
+ 447  Lysaphidus_sp1_USNMENT01322495                           28.88%    failed      0.00%
+ 448  Lycorina_fici_BS_UCE_Ich400                          44.05%    failed      2.53%
+ 449  Macrojoppa_bogotensis_BS_UCE_Ich263                          31.66%    failed      0.00%
+ 450  Macropis_europaea_BND980                6.91%    passed     65.88%
+ 451  Macrotera_echinocacti_BND1092           6.52%    passed     45.89%
+ 452  Mansa_sp_BS_UCE_Ich105                               12.13%    failed      2.27%
+ 453  Manuelia_gayatina_BND1255               9.14%    passed     79.21%
+ 454  Meteorus_sp6_USNMENT01322447                           22.15%    failed      0.00%
+ 455  Megischus_sp_USNMENT01322262                            17.35%    failed      0.15%
+ 456  Meganomia_binghami_BND1026             14.55%    failed      2.84%
+ 457  Megarhyssa_atrata_BS_UCE_Ich310                      12.68%    failed      0.00%
+ 458  Megastylus_sp_BS_UCE_Ich475                             25.76%    passed     72.01%
+ 459  Megichile_exilis_EX393                  6.58%    passed     99.36%
+ 460  Melalophacharops_sp_BS_UCE_Ich449                       14.46%    passed     75.24%
+ 461  Melitta_arrogans_BND943                 8.04%    passed     34.19%
+ 462  Mesoleptidea_sp_BS_UCE_Ich487                        26.72%    passed     21.38%
+ 463  Messatoporus_discoidalis_BS_UCE_Ich087                7.19%    failed      1.13%
+ 464  Metapolybia_cingulata_HPG10            11.00%    passed      5.68%
+ 465  Methoca_sp_EX570                       19.51%    passed     62.67%
+ 466  Metopius_sp_BS_UCE_Ich333B                            21.92%    passed     23.58%
+ 467  Microgaster_sp1_USNMENT01322451                           18.83%    failed      0.00%
+ 468  Microbembex_cubana_EX445               60.83%    passed     35.19%
+ 469  Microcharops_sp_BS_UCE_Ich406                        27.82%    passed     23.00%
+ 470  Mischocyttarus_mexicanus_EX398         13.68%    passed     15.56%
+ 471  Mnioes_sp_BS_UCE_Ich500                                 21.41%    passed     65.24%
+ 472  Mutilla_sp_EX563                        6.25%    passed     66.34%
+ 473  Myrmosa_sp_EX575                        8.44%    passed     60.90%
+ 474  Myzinum_sp_EX576                        4.88%    passed     83.81%
+ 475  Nasonia_vitripennis_USNMENT01322105                  18.49%    failed      0.02%
+ 476  Neuroterus_distortus_USNMENT01322326                            44.78%    failed      0.00%
+ 477  Neorileya_flavipes_USNMENT01322369                            49.33%    passed     28.87%
+ 478  Neopasiphae_mirabilis_BND1312           7.96%    passed     72.38%
+ 479  Neotheronia_sp_BS_UCE_Ich317                         81.51%    failed      0.00%
+ 480  Nesolinoceras_laluzbrillante_BS_UCE_Ich009           14.16%    failed      2.45%
+ 481  Netelia_sp_BS_UCE_Ich199                             15.21%    passed     20.77%
+ 482  Bolivar_ornaticornis_USNMENT01322438                            13.06%    failed      0.04%
+ 483  Notiospathius_terminalis_USNMENT01322437                            40.85%    failed      2.93%
+ 484  Oberthuerella_lenticularis_USNMENT01322285                            15.49%    failed      0.14%
+ 485  Odontocolon_albotibiale_BS_UCE_Ich200                  6.81%    passed     10.51%
+ 486  Odontomutilla_sp_EX556                  3.61%    passed     35.88%
+ 487  Oedemopsis_sp_BS_UCE_Ich352                          27.29%    passed     67.91%
+ 488  Olixon_sp_BS_UCE_Rhop1                              29.72%    passed     33.23%
+ 489  Ophion_sp_BS_UCE_Ich571                                 26.63%    failed      0.57%
+ 490  Orthostigma_sp1_USNMENT01322428                           35.27%    passed     39.68%
+ 491  Orgilus_sp4_USNMENT01322453                           21.08%    failed      0.00%
+ 492  Orthocentrus_sp_BS_UCE_Ich306                         7.95%    failed      0.40%
+ 493  Oxybelus_analis_EX443                  23.81%    passed     97.90%
+ 494  Oxytorus_sp_BS_UCE_Ich366                            60.04%    passed     10.59%
+ 495  Paroligoneurus_sp1_USNMENT01322443                           29.07%    failed      0.00%
+ 496  Paramesius_sp_USNMENT01322286                            41.89%    passed     39.80%
+ 497  Pantoclis_sp_USNMENT01322340                            30.22%    passed     94.35%
+ 498  Paradecatoma_sp_USNMENT01322415                            40.04%    failed      0.55%
+ 499  Pachodynerus_alayoi_EX400               8.53%    passed     73.00%
+ 500  Pachymelus_peringueyi_BND986            8.05%    passed     52.20%
+ 501  Pachysomoides_fulvus_BS_UCE_Ich078                    7.48%    passed      7.04%
+ 502  Parancistrocerus_bacu_EX401            11.02%    passed     83.93%
+ 503  Pararhophites_orobinus_BND1424          9.12%    passed     96.73%
+ 504  Periclistus_sp1_USNMENT01322291                            6.41%    passed     11.97%
+ 505  Pelecinus_sp_EX451                     16.20%    passed     93.12%
+ 506  Pepsis_grossa_EX437                    14.08%    passed     14.57%
+ 507  Philolema_latrodecti_USNMENT01322374                            37.61%    failed      3.04%
+ 508  Phanerotoma_sp1_USNMENT01322469                           42.65%    failed      0.00%
+ 509  Phaeogenes_sp_BS_UCE_Ich212                        7.63%    failed      0.00%
+ 510  Philanthus_gibbosus_BND827              5.15%    passed     99.80%
+ 511  Phobocampe_clisiocampae_BS_UCE_Ich344                 7.84%    passed     35.94%
+ 512  Phytodietus_pleuralis_BS_UCE_Ich315                  14.80%    passed     35.07%
+ 513  Pioscelus_borealis_USNMENT01322491                            19.01%    failed      0.83%
+ 514  Piestopleura_sp_USNMENT01223801                            32.46%    failed      3.19%
+ 515  Pimpla_aequalis_BS_UCE_Ich198                        13.61%    failed      0.00%
+ 516  Pison_chilense_BND1250                  5.70%    failed      0.12%
+ 517  Plagiotrochus_suburi_USNMENT01322345                            31.67%    failed      0.00%
+ 518  Platymystax_sp_BS_UCE_Ich107                          8.71%    failed      0.56%
+ 519  Plebeina_hildebrandti_BND992           12.39%    passed     43.91%
+ 520  Pluto_argentifrons_EX448                7.97%    passed     39.19%
+ 521  Pogonomyrmex_occidentalis_EX377         7.18%    passed     27.90%
+ 522  Polistes_poeyi_EX399                   14.60%    passed     79.44%
+ 523  Polyblastus_sp_BS_UCE_Ich488                            12.44%    passed     22.85%
+ 524  Hidryta_fusiventris_C0492                12.85%    passed     92.73%
+ 525  Pompilidae_sp_EX407                     8.83%    failed      0.65%
+ 526  Proterops_sp_proteroptoides_USNMENT01322444                            16.40%    failed      0.12%
+ 527  Proctotrupes_sp1_USNMENT01322351                           75.99%    failed      0.00%
+ 528  Prionyx_thomae_EX404                   20.71%    failed      0.07%
+ 529  Pristocerus_sp1_EX552                   11.80%    failed      0.00%
+ 530  Pristomerus_sp_BS_UCE_Ich413                         59.62%    failed      1.55%
+ 531  Proclitus_fulvicornis_BS_UCE_Ich355                  53.66%    failed      0.02%
+ 532  Proscolia_sp_EX568                      3.30%    passed     90.48%
+ 533  Protoxaea_gloriosa_BND217              13.40%    passed     50.99%
+ 534  Pseudognaptodon_sp1_USNMENT01322474                           54.61%    passed     39.12%
+ 535  Pseudomasaris_vespoides_EX442          17.36%    passed     60.52%
+ 536  Pulverro_boharti_BND1663                7.25%    passed     59.04%
+ 537  Pygocryptus_erugatus_BS_UCE_Ich139                   10.50%    failed      0.37%
+ 538  Rhytidoponera_chalybaea_T000                                  8.28%    failed      2.26%
+ 539  Rhaconotus_fasciatus_USNMENT01322492                            13.45%    passed     12.61%
+ 540  Rhoophilus_loewi_USNMENT01322293                             8.21%    passed      7.35%
+ 541  Rhygoplitis_sp1_USNMENT01322480                           46.23%    failed      2.32%
+ 542  Rhopalomutilla_sp_EX564                 4.48%    passed     81.93%
+ 543  Rhopalosoma_nearcticum_EX457            7.77%    passed     21.87%
+ 544  Rophites_algirus_BND972                 5.76%    passed      8.12%
+ 545  Rothneyia_sp_BS_UCE_Ich458                              10.01%    failed      0.00%
+ 546  Sapyga_pumila_HPG8                     10.18%    failed      0.00%
+ 547  Sapyga_sp_EX466                        13.06%    failed      0.00%
+ 548  Schenkia_sp_BS_UCE_Ich110                             9.92%    failed      3.41%
+ 549  Scolia_verticalis_HPG11                 7.92%    passed     26.47%
+ 550  Scoliinae_sp_EX577                      6.64%    passed     11.50%
+ 551  Scolomus_clypeatus_BS_UCE_Ich328                     34.63%    passed      6.15%
+ 552  Scrapter_heterodoxus_BND904             4.23%    passed     63.68%
+ 553  Sericomyrmex_harekuli_HPG9              8.57%    passed     85.76%
+ 554  Sigalphus_sp1_USNMENT01322498                           14.85%    failed      0.00%
+ 555  Sierolomorpha_sp_EX471                  9.21%    passed     99.96%
+ 556  Skiapus_coalescens_BS_UCE_Ich463                     16.38%    failed      0.00%
+ 557  Smicromyrmilla_sp_EX567                 8.89%    passed     43.00%
+ 558  Spathius_laflammei_USNMENT01322434                             8.14%    failed      0.00%
+ 559  Spilomicrus_sp_USNMENT01322337                            75.61%    failed      0.34%
+ 560  Sphaeropthalma_orestes_EX436            7.14%    passed     54.85%
+ 561  Sphecodes_persimilis_BND559             9.55%    passed      7.52%
+ 562  Sphex_jamaicensis_EX405                 8.92%    failed      2.90%
+ 563  Spliopteron_occiputale_BS_UCE_Ich313                 10.75%    failed      0.02%
+ 564  Stantonia_sp30_USNMENT01322481                          12.22%    failed      0.00%
+ 565  Stenamma_megamanni_EX368                5.80%    failed      4.01%
+ 566  Stenarella_insidiator_BS_UCE_Ich059                   6.75%    failed      0.88%
+ 567  Stenichneumon_culpator_BS_UCE_Ich238                  7.39%    failed      0.14%
+ 568  Stenomacrus_sp_BS_UCE_Ich499                            10.97%    passed     10.35%
+ 569  Stigmatomma_oregonense_EX435            9.62%    failed      0.27%
+ 570  Stilbops_vetulus_BS_UCE_Ich423                       65.43%    passed     55.25%
+ 571  Synophrus_pilulae_USNMENT00961203                            10.31%    passed     24.91%
+ 572  Synergus_sp_USNMENT01322283                             4.59%    passed     52.06%
+ 573  Synophromorpha_sylvestris_USNMENT01322282                             7.23%    passed     34.51%
+ 574  Tachysphex_alayoi_EX402                13.64%    failed      0.00%
+ 575  Tamaulipeca_nsp_BS_UCE_Ich185                       16.29%    passed      8.79%
+ 576  Tetramesa_romana_USNMENT01322405                            23.90%    passed     63.59%
+ 577  Tenuipetiolus_ruber_USNMENT01322382                            45.17%    passed      5.43%
+ 578  Therion_sp_BS_UCE_Ich403                             41.86%    passed     84.44%
+ 579  Theronia_sp_BS_UCE_Ich435                               15.97%    failed      0.00%
+ 580  Thrinchostoma_perineti_BND1247         13.39%    passed     92.59%
+ 581  Thyninnae_sp_EX565                      4.22%    passed     92.99%
+ 582  Thyreodon_sp_BS_UCE_Ich383                           68.94%    passed     71.10%
+ 583  Thyreus_delumbatus_BND988               4.98%    passed     67.28%
+ 584  Tiphia_sp_EX571                         9.38%    passed     74.69%
+ 585  Triraphis_discoideus_USNMENT01322496                           12.99%    failed      0.00%
+ 586  Triaspis_sp1_USNMENT01322475                           16.44%    passed     14.15%
+ 587  Symphya_n_sp2_USNMENT01322254                            9.80%    failed      0.05%
+ 588  Trichopria_sp_USNMENT01322335                            27.82%    passed     12.99%
+ 589  Pompilidae_sp_USNMENT01339591                            18.83%    failed      1.30%
+ 590  Trachusa_larreae_BND1144                5.78%    passed     55.33%
+ 591  Trathala_n_sp_BS_UCE_Ich408                        45.39%    failed      1.36%
+ 592  Trematopygodes_rufipectus_BS_UCE_Ich345              16.79%    passed     51.93%
+ 593  Trematopygus_sp_BS_UCE_Ich468                           58.83%    passed     67.71%
+ 594  Trichomma_cf_BS_UCE_Ich452                           28.82%    passed     39.63%
+ 595  Triclistus_crassus_BS_UCE_Ich334B                     14.74%    passed     59.07%
+ 596  Trieces_sp_BS_UCE_Ich392                             41.82%    passed     66.91%
+ 597  Trissolcus_sp_USNMENT01223831                          13.68%    passed     76.23%
+ 598  Trogaspidia_sp_EX574                    4.81%    passed     74.56%
+ 599  Trychosis_exulans_BS_UCE_Ich097                       8.44%    passed     99.98%
+ 600  Trypoxylon_sp_EX403                    10.55%    failed      4.18%
+ 601  Vespa_sp_EX578                         12.06%    passed     73.54%
+ 602  Vipio_sp1_USNMENT01322501                           15.22%    failed      0.19%
+ 603  Vulgichneumon_sp_BS_UCE_Ich207                        4.56%    failed      0.21%
+ 604  Wroughtonia_sp1_USNMENT01322502                           23.00%    passed     83.64%
+ 605  Xanthesma_furcifera_BND710             15.19%    passed     73.89%
+ 606  Xanthocampoplex_sp_BS_UCE_Ich460                        22.94%    passed      6.95%
+ 607  Xiphosomella_sp_BS_UCE_Ich409                        43.51%    passed     17.56%
+ 608  Xorides_sp_BS_UCE_Ich309                              4.92%    failed      0.61%
+ 609  Xyela_sp_EX453                         22.42%    failed      0.00%
+ 610  Xylocopa_virginica_BND1158              6.21%    passed     76.23%
+ 611  Yelicones_delicatus_USNMENT01322497                            13.84%    failed      0.00%
+ 612  Zapatella_davisae_USNMENT01322330                            52.44%    failed      0.00%
+ 613  Zaglyptus_varipes_BS_UCE_Ich349                      13.91%    passed     79.72%
+ 614  Zygota_sp_USNMENT01322354                            50.61%    passed     20.66%
+ 615  Chromeurytoma_sp_ANIC00037_0189                         19.04%    failed      0.01%
+ 616  Acanthocaudus_bicolor_USNMENT01322505                            25.10%    failed      0.00%
+ 617  Acraspis_villosa_USNMENT01322264                            75.61%    failed      0.03%
+ 618  Acrolyta_sp_BS_UCE_Ich122                            41.58%    passed     16.79%
+ 619  Acrotaphus_wiltii_BS_UCE_Ich319                       8.58%    passed     31.59%
+ 620  Adialytus_sp1_USNMENT01322467                           52.75%    failed      0.00%
+ 621  Adelognathus_sp_BS_UCE_Ich181                        68.16%    failed      0.00%
+ 622  Agathis_sp1_USNMENT01322249                           49.28%    failed      0.00%
+ 623  Agriotypus_armatus_BS_UCE_Ich182                     71.56%    failed      1.22%
+ 624  Alabagrus_sp3_USNMENT01322247                           27.22%    failed      0.00%
+ 625  Allophrys_n_sp_BS_UCE_Ich339                        70.05%    passed     37.51%
+ 626  Aphanogmus_bicolor_PSUC_FEM13632                           14.95%    passed     24.76%
+ 627  Aphanogmus_fumipennis_PSUC_FEM17533                           21.70%    passed     93.28%
+ 628  Aphanogmus_steinitzi_PSUC_FEM17568                           14.45%    passed     78.36%
+ 629  Apterogyna_sp_EX572                    53.28%    failed      0.02%
+ 630  Aranedra_sp2_USNMENT01322392                           79.78%    failed      4.05%
+ 631  Argochrysis_armilla_EX434              16.97%    failed      0.15%
+ 632  Atrusca_bella_USNMENT00892683                            87.99%    failed      0.00%
+ 633  Atopotrophus_bucephalus_BS_UCE_Ich434                33.86%    passed     50.55%
+ 634  Augochloropsis_metallica_EX397          7.97%    passed     54.52%
+ 635  Auplopus_sp_EX549                      42.30%    failed      2.41%
+ 636  Eusandalum_sp_USNMENT01322070                                 14.63%    passed     50.82%
+ 637  Eutrichosoma_mirabile_USNMENT01322104                                 45.88%    passed      6.83%
+ 638  Entedon_ergias_USNMENT01322185                                 71.74%    passed     40.87%
+ 639  Epitranus_sp_USNMENT01322192                                 43.03%    failed      2.53%
+ 640  Psilochalcis_brevialata_USNMENT01322195                                 16.93%    passed     78.41%
+ 641  Tylosema_dayae_USNMENT01322132                                 79.13%    failed      0.01%
+ 642  Waldheimia_carbonaria_USNMENT01322216                                 15.75%    passed     66.79%
+ 643  Tremex_columba_USNMENT01322218                                  6.73%    passed     85.98%
+ 644  Lagium_atroviolaceum_USNMENT01322219                                 12.22%    passed     48.67%
+ 645  Abia_lonicerae_USNMENT01322220                                 17.16%    passed     32.16%
+ 646  Thrinax_dubitata_USNMENT01322221                                 13.70%    failed      0.00%
+ 647  Paracharactus_rudis_USNMENT01322222                                 12.32%    passed     14.34%
+ 648  Cladius_difformis_USNMENT01322223                                 22.42%    passed     93.60%
+ 649  Schizocerella_lineata_USNMENT01322224                                 27.45%    failed      0.00%
+ 650  Acordulecera_pellucida_USNMENT01322225                                 46.51%    passed     82.18%
+ 651  Macrophya_trisyllaba_USNMENT01322226                                 13.94%    passed     93.51%
+ 652  Pachynematus_corniger_USNMENT01322228                                 15.84%    failed      0.74%
+ 653  Taxonus_pallipes_USNMENT01322231                                 12.35%    passed      6.27%
+ 654  Neocremnops_virginiensis_USNMENT01322238                                 40.50%    failed      0.00%
+ 655  Pseudibalia_sp_USNMENT01339677                                 38.38%    failed      1.42%
+ 656  Leptopilina_japonica_USNMENT01339619                                 24.38%    failed      0.01%
+ 657  Arge_humeralis_USNMENT01339627                                 19.73%    failed      0.00%
+ 658  Heptamelus_dahlbomi_USNMENT01339629                                 20.00%    passed     97.24%
+ 659  Atomacera_decepta_USNMENT01339630                                 16.10%    failed      0.00%
+ 660  Lophyrotoma_zonalis_USNMENT01339631                                 42.41%    failed      0.24%
+ 661  Athalia_sp_USNMENT01339632                                  9.98%    passed     66.29%
+ 662  Sirex_noctilio_USNMENT01339665                                  6.50%    passed     83.38%
+ 663  Cnecomymar_sp_USNMENT01322528                                 77.30%    passed     26.89%
+ 664  Ceraphron_sp1_PA_PSUC_FEM10045052                                 19.03%    passed     70.99%
+ 665  Ceraphron_sp2_PA_PSUC_FEM10045062                                 18.01%    passed     39.48%
+ 666  Dendrocerus_aphidum_NCSU0016853                                 19.88%    passed     54.77%
+ 667  Dendrocerus_mexicali_PSUC_FEM86151                                 28.75%    failed      0.02%
+ 668  Dendrocerus_acrossopteryx_UCFC0028895                                 17.37%    passed     74.21%
+ 669  Asobara_sp1_USNMENT01322533                                 79.11%    passed      5.43%
+ 670  Cosmophorus_sp1_USNMENT01322566                                 22.81%    failed      0.00%
+ 671  Dolopsidea_carinata_USNMENT01322605                                 14.15%    failed      0.00%
+ 672  Monoctonus_sp1_USNMENT01322621                                 20.72%    failed      0.00%
+ 673  Trioxys_sp1_USNMENT01322622                                 32.89%    failed      0.00%
+ 674  Trioxys_sp2_USNMENT01322623                                 24.26%    failed      0.00%
+ 675  Bassus_sp4_USNMENT01322252                           31.46%    failed      0.00%
+ 676  Barycnemis_sp_BS_UCE_Ich489                             20.73%    passed     72.03%
+ 677  Bembix_americana_EX446                 44.07%    failed      0.58%
+ 678  Binodoxys_sp1_USNMENT01322506                           67.89%    failed      0.00%
+ 679  Binodoxys_sp2_USNMENT01322507                           48.14%    failed      0.00%
+ 680  Brachycyrtus_ornatus_BS_UCE_Ich187                   76.80%    failed      0.10%
+ 681  Callirhytis_eldoradensis_USNMENT00893402                            84.97%    passed     81.27%
+ 682  Cecinothofagus_ibarrai_USNMENT01322269                            21.43%    passed     15.60%
+ 683  Ceraphron_masneri_PSUC_FEM17531                            20.68%    passed     21.29%
+ 684  Ceraphron_sp_PSUC_FEM17529                            37.91%    failed      0.90%
+ 685  Chaenusa_quadriceps_USNMENT01322484                            56.98%    failed      0.02%
+ 686  Chirotica_sp_BS_UCE_Ich476                              54.66%    passed     70.78%
+ 687  Chlorion_aerarium_BND837                8.09%    failed      0.16%
+ 688  Chlorocryptus_purpuratus_BS_UCE_Ich020               14.48%    passed     39.04%
+ 689  Cinetus_sp_USNMENT01322342                            12.44%    failed      3.14%
+ 690  Clatha_sp_BS_UCE_Ich461                                 26.79%    passed     33.49%
+ 691  Conostigmus_abdominalis_PSUC_FEM17567                            10.74%    passed     32.44%
+ 692  Conostigmus_crassicornis_PSUC_FEM13461                            27.44%    passed     25.87%
+ 693  Coiba_jeffersoni_USNMENT01322487                            13.81%    passed     57.91%
+ 694  Coelocyboides_sp_USNMENT01322071                            34.63%    passed     11.59%
+ 695  Creator_spissicornis_PSUC_FEM13530                            25.31%    passed     32.25%
+ 696  Ctenoplectra_rodhaini_BND984            6.33%    passed     85.11%
+ 697  Cynips_plumbea_USNMENT01322300                            76.03%    failed      0.00%
+ 698  Cymodusa_distincta_BS_UCE_Ich466                     21.37%    passed     54.15%
+ 699  Conostigmus_fasciatipennis_NCSU43309                           10.69%    passed     46.29%
+ 700  Deleboea_sp_BS_UCE_Ich186                            58.26%    failed      0.00%
+ 701  Dusona_sp_BS_UCE_Ich410                              58.75%    failed      0.07%
+ 702  Earinus_sp1_USNMENT01322461                           29.56%    failed      0.00%
+ 703  Echthromorpha_agrestoria_BS_UCE_Ich335               38.04%    failed      0.05%
+ 704  Embolemidae_sp_EX483                    8.07%    passed     25.32%
+ 705  Endasys_sp_BS_UCE_Ich131                             61.10%    failed      0.01%
+ 706  Erigorgus_sp_BS_UCE_Ich465                           16.69%    passed     53.58%
+ 707  Erythrodolius_sp_BS_UCE_Ich397                       57.87%    passed      6.31%
+ 708  Eschatocerus_niger_USNMENT01322270                            22.66%    failed      0.06%
+ 709  Ethelurgus_nigriventris_BS_UCE_Ich165                44.29%    passed     47.45%
+ 710  Eurytoma_fumipennis_USNMENT01322362                            43.38%    failed      1.85%
+ 711  Eurytoma_n_sp_guadeloupe_USNMENT01322395                            34.20%    passed      5.34%
+ 712  Euceros_sp_BS_UCE_Ich191                             77.51%    passed      8.56%
+ 713  Eulaema_meriana_ML179                  12.30%    passed     85.77%
+ 714  Fidiobia_sp_USNMENT01223772                           32.26%    failed      2.18%
+ 715  Foutsia_philodendri_USNMENT01322394                            18.59%    failed      1.70%
+ 716  Gnamptodon_sp1_USNMENT01322440                           12.37%    failed      0.04%
+ 717  Grotea_sp_BS_UCE_Ich367                              19.65%    failed      0.00%
+ 718  Holocynips_hartmani_USNMENT01322321                            75.14%    passed     54.44%
+ 719  Homaloceraphron_macrophthalmus_PSUC_FEM17848                            48.03%    passed     21.44%
+ 720  Hoplitalysia_slossonae_USNMENT01322466                            49.96%    passed     86.16%
+ 721  Ismarus_sp_USNMENT01197715                            78.77%    failed      2.67%
+ 722  Chalcimerus_borceai_JRAS01317_301                         45.69%    failed      0.00%
+ 723  Otitesella_ako_JRAS02384_0398                         11.75%    failed      0.00%
+ 724  Idarnes_incerta_JRAS06107_0389                         33.97%    failed      0.00%
+ 725  Josephiella_microcarpae_JRAS06552_0189                         42.52%    failed      1.18%
+ 726  Mymaromma_anomalum_JRAS07601_0189                         39.52%    passed     10.59%
+ 727  Eucharis_adscendens_JRAS07609_0189                         34.46%    failed      0.00%
+ 728  Pseudoligosita_gracilior_JRAS07625_0489                         42.84%    passed     19.90%
+ 729  Signiphora_sp_JRAS07789_0189                         43.25%    failed      0.00%
+ 730  Aperilampus_sp_JRAS07798_101                         53.78%    failed      0.04%
+ 731  Lagynodes_crassicornis_PSUC_FEM13564                            18.60%    passed     81.04%
+ 732  Lissopimpla_sp_BS_UCE_Ich448                            17.71%    failed      0.00%
+ 733  Masner_lubomirus_PSUC_FEM13496                            40.81%    failed      0.06%
+ 734  Macrorileya_oecanthi_USNMENT01322367                            48.71%    passed     20.76%
+ 735  Megaspilus_armatus_PSUC_FEM13531                            37.20%    passed     89.62%
+ 736  Mesochorus_sp_BS_UCE_Ich334B                          52.71%    passed     12.01%
+ 737  Miota_sp_USNMENT01322341                            27.51%    passed     42.39%
+ 738  Microleptes_sp_BS_UCE_Ich196                         78.92%    failed      0.00%
+ 739  Monomachus_sp_USNMENT01322359                            31.60%    passed     18.36%
+ 740  Myrtopsen_mimosae_USNMENT01322134                            81.66%    failed      0.66%
+ 741  Nematus_tibialis_HPG2                  16.38%    passed      9.70%
+ 742  Neorhacodes_brevicauda_BS_UCE_Ich441                 90.10%    passed     52.73%
+ 743  Neoxorides_caryae_BS_UCE_Ich376                      15.89%    failed      0.00%
+ 744  Paraulax_quelensis_USNMENT01322268                            17.34%    passed      6.70%
+ 745  Pediaspis_aceris_USNMENT01339590                            53.14%    passed     27.74%
+ 746  Phygadeuon_sp_BS_UCE_Ich140                          73.18%    failed      0.00%
+ 747  Plenoculus_cockerelli_BND809           13.26%    failed      0.00%
+ 748  Pleolophus_basizonus_BS_UCE_Ich113                   21.74%    passed      6.68%
+ 749  Plumarius_sp_EX550                      9.34%    passed     83.52%
+ 750  Podogaster_cf_BS_UCE_Ich421                          57.81%    passed     60.81%
+ 751  Propsilomma_columbianum_USNMENT01322336                            16.06%    failed      2.06%
+ 752  Praon_sp1_USNMENT01322430                           13.53%    failed      0.00%
+ 753  Rhyssella_nitida_BS_UCE_Ich378                        31.01%    failed      0.01%
+ 754  Scutimica_sp_USNMENT01322133                            55.66%    failed      0.00%
+ 755  Sceliphron_caementarium_EX439          17.26%    failed      1.12%
+ 756  Sclerogibbidae_sp_EX566                47.02%    failed      0.00%
+ 757  Setanta_sp_BS_UCE_Ich267                             54.79%    failed      0.06%
+ 758  Sphecius_hogardii_EX447                26.03%    failed      1.61%
+ 759  Synopeas_sp_USNMENT01223783                            30.24%    passed     49.14%
+ 760  Toxoneuron_viator_USNMENT01322468                            21.49%    failed      0.00%
+ 761  Trassedia_n_sp_PSUC_FEM95969                           45.39%    passed     64.55%
+ 762  Trogomorpha_trogiformis_BS_UCE_Ich205                69.42%    failed      3.14%
+ 763  Utetes_sp1_USNMENT01322452                           45.88%    failed      0.52%
+ 764  Vanhornia_eucnemidarum_EX498           14.95%    passed     20.77%
+ 765  Venturia_sp_BS_UCE_Ich450                               12.28%    passed     27.10%
+ 766  Aedes_albopictus_GCA_001444175                       91.41%    failed      0.00%
+ 767  Agrilus_planipennis_GCA_000699045                    85.99%    passed     11.85%
+ 768  Blattella_germanica_GCA_000762945                    71.22%    failed      1.44%
+ 769  Homalodisca_vitripennis_GCA_000696855                80.34%    failed      0.00%
+ 770  Papilio_glauca_GCA_000931545                         90.03%    failed      0.00%
+ 771  Pediculus_humanus_corporis_GCA_000006295                      86.92%    failed      0.00%
+WARNING: 91 sequences contain more than 50% gaps/ambiguity
+****  TOTAL                                  24.47%  418 sequences failed composition chi2 test (p-value<5%; df=3)
+
+NOTE: Restoring information from model checkpoint file /pool/genomics/blaimerbb/UCE/ParaALLwOUTFINAL/phyluce771/concat70per/mafft-nexus-miss-70per-taxa.phylip.model.gz
+
+CHECKPOINT: Initial tree restored
+NOTE: ModelFinder requires 8878 MB RAM!
+ModelFinder will test 286 DNA models (sample size: 40672) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  JC            3752434.130  1539 7507946.260  7508067.392  7521202.121
+  2  JC+I          3577700.285  1540 7158480.570  7158601.862  7171745.045
+  3  JC+G4         3091845.203  1540 6186770.406  6186891.698  6200034.881
+  4  JC+I+G4       3082288.665  1541 6167659.3  6  JC+R3         3105410.042  1543 6213906.084  6214027.859  6227196.399
+  7  JC+R4         3081535.914  1545 6166161.828  6166283.924  6179469.369
+  8  JC+R5         3071556.870  1547 6146207.739  6146330.158  6159532.507
+  9  JC+R6         3067170.026  1549 6137438.052  6137560.794  6150780.046
+ 10  JC+R7         3067170.023  1551 6137442.046  6137565.111  6150801.266
+ 14  F81+F         3746393.072  1542 7495870.145  7495991.758  7509151.846
+ 15  F81+F+I       3573243.494  1543 7149572.988  7149694.762  7162863.302
+ 16  F81+F+G4      3087930.249  1543 6178946.499  6179068.273  6192236.813
+ 17  F81+F+I+G4    3078259.327  1544 6159606.654  6159728.590  6172905.582
+ 18  F81+F+R2      3193473.492  1544 6390034.985  6390156.920  6403333.912
+ 19  F81+F+R3      3101515.667  1546 6206123.333  6206245.591  6219439.488
+ 20  F81+F+R4      3077426.908  1548 6157949.816  6158072.397  6171283.197
+ 21  F81+F+R5      3067358.079  1550 6137816.158  6137939.061  6151166.765
+ 22  F81+F+R6      3062974.894  1552 6129053.787  6129177.014  6142421.621
+ 23  F81+F+R7      3062974.887  1554 6129057.774  6129181.325  6142442.835
+ 27  K2P           3635785.071  1540 7274650.141  7274771.433  7287914.616
+ 28  K2P+I         3460150.401  1541 6923382.802  6923504.255  6936655.890
+ 29  K2P+G4        2966573.459  1541 5936228.917  5936350.370  5949502.005
+ 30  K2P+I+G4      2956631.567  1542 5916347.134  5916468.747  5929628.835
+ 31  K2P+R2        3074127.749  1542 6151339.498  6151461.111  6164621.199
+ 32  K2P+R3        2981020.884  1544 5965129.767  5965251.702  5978428.695
+ 33  K2P+R4        2956648.762  1546 5916389.523  5916511.781  5929705.678
+ 34  K2P+R5        2946331.763  1548 5895759.526  5895882.106  5909092.907
+ 35  K2P+R6        2941725.334  1550 5886550.669  5886673.572  5899901.276
+ 36  K2P+R7        2941725.220  1552 5886554.441  5886677.668  5899922.275
+ 40  HKY+F         3627945.975  1543 7258977.951  7259099.725  7272268.265
+ 41  HKY+F+I       3455386.695  1544 6913861.389  6913983.325  6927160.317
+ 42  HKY+F+G4      2962878.838  1544 5928845.677  5928967.612  5942144.605
+ 43  HKY+F+I+G4    2952755.375  1545 5908600.749  5908722.845  5921908.290
+ 44  HKY+F+R2      3070503.444  1545 6144096.889  6144218.985  6157404.430
+ 45  HKY+F+R3      2977363.795  1547 5957821.590  5957944.009  5971146.358
+ 46  HKY+F+R4      2952560.019  1549 5908218.038  5908340.779  5921560.032
+ 47  HKY+F+R5      2942088.299  1551 5887278.599  5887401.664  5900637.819
+ 48  HKY+F+R6      2937551.088  1553 5878208.175  5878331.564  5891584.623
+ 49  HKY+F+R7      2937551.078  1555 5878212.156  5878335.869  5891605.830
+ 53  TNe           3635781.300  1541 7274644.599  7274766.052  7287917.687
+ 54  TNe+I         3460150.399  1542 6923384.797  6923506.411  6936666.499
+ 55  TNe+G4        2966571.728  1542 5936227.455  5936349.069  5949509.156
+ 56  TNe+I+G4      2956631.139  1543 5916348.278  5916470.053  5929638.593
+ 57  TNe+R2        3074116.294  1543 6151318.589  6151440.363  6164608.903
+ 58  TNe+R3        2981019.223  1545 5965128.447  5965250.543  5978435.988
+ 59  TNe+R4        2956648.448  1547 5916390.896  5916513.315  5929715.664
+ 60  TNe+R5        2946331.876  1549 5895761.751  5895884.493  5909103.745
+ 61  TNe+R6        2941726.706  1551 5886555.412  5886678.477  5899914.633
+ 62  TNe+R7        2941726.702  1553 5886559.404  5886682.793  5899935.851
+ 66  TN+F          3627938.656  1544 7258965.312  7259087.248  7272264.240
+ 67  TN+F+I        3455386.346  1545 6913862.693  6913984.789  6927170.234
+ 68  TN+F+G4       2962870.488  1545 5928830.976  5928953.072  5942138.517
+ 69  TN+F+I+G4     2952753.170  1546 5908598.340  5908720.598  5921914.495
+ 70  TN+F+R2       3070492.538  1546 6144077.077  6144199.334  6157393.231
+ 71  TN+F+R3       2977362.964  1548 5957821.927  5957944.507  5971155.308
+ 72  TN+F+R4       2952556.791  1550 5908213.583  5908336.486  5921564.190
+ 73  TN+F+R5       2942086.111  1552 5887276.221  5887399.448  5900644.055
+ 74  TN+F+R6       2937550.081  1554 5878208.162  5878331.713  5891593.223
+ 75  TN+F+R7       2937550.077  1556 5878212.153  5878336.028  5891614.440
+ 79  K3P           3634798.742  1541 7272679.485  7272800.938  7285952.573
+ 80  K3P+I         3459153.047  1542 6921390.094  6921511.707  6934671.795
+ 81  K3P+G4        2965596.991  1542 5934277.982  5934399.596  5947559.684
+ 82  K3P+I+G4      2955669.996  1543 5914425.992  5914547.766  5927716.306
+ 83  K3P+R2        3073106.528  1543 6149299.057  6149420.831  6162589.371
+ 84  K3P+R3        2980029.624  1545 5963149.249  5963271.345  5976456.790
+ 85  K3P+R4        2955681.882  1547 5914457.764  5914580.183  5927782.532
+ 86  K3P+R5        2945369.364  1549 5893836.729  5893959.471  5907178.723
+ 87  K3P+R6        2940772.934  1551 5884647.868  5884770.933  5898007.089
+ 88  K3P+R7        2940772.927  1553 5884651.854  5884775.243  5898028.301
+ 92  K3Pu+F        3627168.716  1544 7257425.432  7257547.367  7270724.360
+ 93  K3Pu+F+I      3454434.441  1545 6911958.883  6912080.979  6925266.424
+ 94  K3Pu+F+G4     2961898.583  1545 5926887.165  5927009.261  5940194.706
+ 95  K3Pu+F+I+G4   2951796.635  1546 5906685.269  5906807.527  5920001.424
+ 96  K3Pu+F+R2     3069478.390  1546 6142048.780  6142171.038  6155364.935
+ 97  K3Pu+F+R3     2976359.761  1548 5955815.521  5955938.101  5969148.902
+ 98  K3Pu+F+R4     2951604.734  1550 5906309.467  5906432.370  5919660.075
+ 99  K3Pu+F+R5     2941143.719  1552 5885391.439  5885514.666  5898759.273
+100  K3Pu+F+R6     2936604.463  1554 5876316.927  5876440.477  5889701.987
+101  K3Pu+F+R7     2936604.372  1556 5876320.744  5876444.619  5889723.031
+105  TPM2+F        3627895.998  1544 7258879.996  7259001.931  7272178.924
+106  TPM2+F+I      3455350.637  1545 6913791.273  6913913.369  6927098.814
+107  TPM2+F+G4     2962766.218  1545 5928622.435  5928744.531  5941929.976
+108  TPM2+F+I+G4   2952644.311  1546 5908380.622  5908502.879  5921696.776
+109  TPM2+F+R2     3070373.056  1546 6143838.111  6143960.369  6157154.266
+110  TPM2+F+R3     2977228.124  1548 5957552.248  5957674.828  5970885.629
+111  TPM2+F+R4     2952464.641  1550 5908029.281  5908152.184  5921379.889
+112  TPM2+F+R5     2941997.008  1552 5887098.017  5887221.244  5900465.851
+113  TPM2+F+R6     2937463.189  1554 5878034.377  5878157.928  5891419.438
+114  TPM2+F+R7     2937463.180  1556 5878038.359  5878162.235  5891440.647
+118  TPM2u+F       3627895.992  1544 7258879.984  7259001.920  7272178.912
+119  TPM2u+F+I     3455350.637  1545 6913791.275  6913913.371  6927098.816
+120  TPM2u+F+G4    2962766.218  1545 5928622.435  5928744.531  5941929.976
+121  TPM2u+F+I+G4  2952644.312  1546 5908380.625  5908502.882  5921696.779
+122  TPM2u+F+R2    3070373.051  1546 6143838.101  6143960.359  6157154.256
+123  TPM2u+F+R3    2977228.126  1548 5957552.253  5957674.833  5970885.634
+124  TPM2u+F+R4    2952464.644  1550 5908029.288  5908152.191  5921379.895
+125  TPM2u+F+R5    2941997.006  1552 5887098.011  5887221.238  5900465.845
+126  TPM2u+F+R6    2937463.185  1554 5878034.371  5878157.922  5891419.431
+127  TPM2u+F+R7    2937463.179  1556 5878038.358  5878162.233  5891440.645
+131  TPM3+F        3627707.921  1544 7258503.842  7258625.777  7271802.770
+132  TPM3+F+I      3455386.697  1545 6913863.395  6913985.491  6927170.936
+133  TPM3+F+G4     2962877.312  1545 5928844.625  5928966.721  5942152.166
+134  TPM3+F+I+G4   2952755.421  1546 5908602.843  5908725.100  5921918.997
+135  TPM3+F+R2     3070499.138  1546 6144090.276  6144212.534  6157406.431
+136  TPM3+F+R3     2977359.587  1548 5957815.174  5957937.754  5971148.554
+137  TPM3+F+R4     2952559.435  1550 5908218.870  5908341.773  5921569.478
+138  TPM3+F+R5     2942084.335  1552 5887272.670  5887395.897  5900640.504
+139  TPM3+F+R6     2937550.246  1554 5878208.491  5878332.042  5891593.552
+140  TPM3+F+R7     2937550.241  1556 5878212.483  5878336.358  5891614.770
+144  TPM3u+F       3627707.919  1544 7258503.838  7258625.773  7271802.766
+145  TPM3u+F+I     3455386.697  1545 6913863.394  6913985.491  6927170.935
+146  TPM3u+F+G4    2962877.312  1545 5928844.625  5928966.721  5942152.166
+147  TPM3u+F+I+G4  2952755.422  1546 5908602.844  5908725.102  5921918.999
+148  TPM3u+F+R2    3070499.158  1546 6144090.316  6144212.573  6157406.470
+149  TPM3u+F+R3    2977359.584  1548 5957815.168  5957937.748  5971148.549
+150  TPM3u+F+R4    2952559.434  1550 5908218.868  5908341.771  5921569.475
+151  TPM3u+F+R5    2942084.338  1552 5887272.676  5887395.903  5900640.510
+152  TPM3u+F+R6    2937550.245  1554 5878208.490  5878332.041  5891593.550
+153  TPM3u+F+R7    2937550.241  1556 5878212.481  5878336.357  5891614.769
+157  TIMe          3634794.965  1542 7272673.930  7272795.544  7285955.632
+158  TIMe+I        3459153.057  1543 6921392.114  6921513.888  6934682.428
+159  TIMe+G4       2965595.333  1543 5934276.666  5934398.440  5947566.980
+160  TIMe+I+G4     2955669.493  1544 5914426.985  5914548.921  5927725.913
+161  TIMe+R2       3073095.200  1544 6149278.399  6149400.334  6162577.327
+162  TIMe+R3       2980027.988  1546 5963147.976  5963270.233  5976464.130
+163  TIMe+R4       2955681.627  1548 5914459.254  5914581.834  5927792.635
+164  TIMe+R5       2945369.537  1550 5893839.075  5893961.978  5907189.682
+165  TIMe+R6       2940772.812  1552 5884649.624  5884772.851  5898017.458
+166  TIMe+R7       2940772.770  1554 5884653.541  5884777.092  5898038.601
+170  TIM+F         3627161.381  1545 7257412.762  7257534.859  7270720.303
+171  TIM+F+I       3454434.100  1546 6911960.200  6912082.458  6925276.355
+172  TIM+F+G4      2961891.115  1546 5926874.230  5926996.488  5940190.384
+173  TIM+F+I+G4    2951794.303  1547 5906682.605  5906805.024  5920007.373
+174  TIM+F+R2      3069466.984  1547 6142027.969  6142150.387  6155352.736
+175  TIM+F+R3      2976358.729  1549 5955815.459  5955938.200  5969157.453
+176  TIM+F+R4      2951601.196  1551 5906304.391  5906427.456  5919663.612
+177  TIM+F+R5      2941142.000  1553 5885390.000  5885513.389  5898766.448
+178  TIM+F+R6      2936603.775  1555 5876317.550  5876441.263  5889711.224
+179  TIM+F+R7      2936603.627  1557 5876321.255  5876445.292  5889732.155
+183  TIM2e         3635650.130  1542 7274384.260  7274505.873  7287665.961
+184  TIM2e+I       3459548.715  1543 6922183.430  6922305.205  6935473.745
+185  TIM2e+G4      2965345.350  1543 5933776.699  5933898.474  5947067.014
+186  TIM2e+I+G4    2955389.632  1544 5913867.264  5913989.200  5927166.192
+187  TIM2e+R2      3072877.027  1544 6148842.054  6148963.990  6162140.982
+188  TIM2e+R3      2979780.767  1546 5962653.535  5962775.792  5975969.689
+189  TIM2e+R4      2955486.628  1548 5914069.255  5914191.836  5927402.636
+190  TIM2e+R5      2945206.885  1550 5893513.769  5893636.672  5906864.377
+191  TIM2e+R6      2940640.679  1552 5884385.358  5884508.585  5897753.192
+192  TIM2e+R7      2940640.629  1554 5884389.258  5884512.809  5897774.319
+196  TIM2+F        3627889.131  1545 7258868.263  7258990.359  7272175.804
+197  TIM2+F+I      3455350.316  1546 6913792.632  6913914.890  6927108.787
+198  TIM2+F+G4     2962753.923  1546 5928599.846  5928722.103  5941916.000
+199  TIM2+F+I+G4   2952639.694  1547 5908373.389  5908495.808  5921698.156
+200  TIM2+F+R2     3070358.236  1547 6143810.471  6143932.890  6157135.239
+201  TIM2+F+R3     2977225.395  1549 5957548.789  5957671.531  5970890.784
+202  TIM2+F+R4     2952459.305  1551 5908020.611  5908143.676  5921379.832
+203  TIM2+F+R5     2941993.743  1553 5887093.486  5887216.875  5900469.933
+204  TIM2+F+R6     2937461.708  1555 5878033.417  5878157.130  5891427.091
+205  TIM2+F+R7     2937461.630  1557 5878037.259  5878161.297  5891448.160
+209  TIM3e         3635777.433  1542 7274638.866  7274760.480  7287920.568
+210  TIM3e+I       3459852.270  1543 6922790.540  6922912.314  6936080.854
+211  TIM3e+G4      2965958.163  1543 5935002.327  5935124.101  5948292.641
+212  TIM3e+I+G4    2956115.949  1544 5915319.899  5915441.834  5928618.827
+213  TIM3e+R2      3073528.351  1544 6150144.702  6150266.638  6163443.630
+214  TIM3e+R3      2980457.758  1546 5964007.516  5964129.773  5977323.670
+215  TIM3e+R4      2956178.225  1548 5915452.450  5915575.031  5928785.831
+216  TIM3e+R5      2945892.202  1550 5894884.404  5895007.307  5908235.011
+217  TIM3e+R6      2941260.809  1552 5885625.617  5885748.844  5898993.452
+218  TIM3e+R7      2941260.790  1554 5885629.580  5885753.131  5899014.641
+222  TIM3+F        3627700.578  1545 7258491.157  7258613.253  7271798.698
+223  TIM3+F+I      3455386.438  1546 6913864.876  6913987.134  6927181.030
+224  TIM3+F+G4     2962869.517  1546 5928831.034  5928953.291  5942147.188
+225  TIM3+F+I+G4   2952753.707  1547 5908601.415  5908723.834  5921926.182
+226  TIM3+F+R2     3070488.555  1547 6144071.110  6144193.529  6157395.877
+227  TIM3+F+R3     2977358.889  1549 5957815.777  5957938.519  5971157.772
+228  TIM3+F+R4     2952556.078  1551 5908214.156  5908337.221  5921573.377
+229  TIM3+F+R5     2942082.234  1553 5887270.469  5887393.858  5900646.916
+230  TIM3+F+R6     2937549.371  1555 5878208.743  5878332.456  5891602.417
+231  TIM3+F+R7     2937549.364  1557 5878212.729  5878336.767  5891623.629
+235  TVMe          3634696.415  1543 7272478.829  7272600.604  7285769.144
+236  TVMe+I        3458333.472  1544 6919754.943  6919876.879  6933053.871
+237  TVMe+G4       2963797.623  1544 5930683.245  5930805.181  5943982.173
+238  TVMe+I+G4     2953950.018  1545 5910990.036  5911112.133  5924297.577
+239  TVMe+R2       3071341.583  1545 6145773.165  6145895.261  6159080.706
+240  TVMe+R3       2978276.444  1547 5959646.888  5959769.307  5972971.656
+241  TVMe+R4       2954094.379  1549 5911286.759  5911409.500  5924628.753
+242  TVMe+R5       2943846.421  1551 5890794.843  5890917.908  5904154.064
+243  TVMe+R6       2939261.024  1553 5881628.049  5881751.438  5895004.496
+244  TVMe+R7       2939260.988  1555 5881631.976  5881755.689  5895025.650
+248  TVM+F         3626769.369  1546 7256630.737  7256752.995  7269946.892
+249  TVM+F+I       3454408.526  1547 6911911.053  6912033.472  6925235.821
+250  TVM+F+G4      2961800.889  1547 5926695.779  5926818.197  5940020.546
+251  TVM+F+I+G4    2951697.598  1548 5906491.196  5906613.776  5919824.576
+252  TVM+F+R2      3069370.031  1548 6141836.063  6141958.643  6155169.443
+253  TVM+F+R3      2976242.650  1550 5955585.300  5955708.203  5968935.908
+254  TVM+F+R4      2951519.466  1552 5906142.932  5906266.159  5919510.766
+255  TVM+F+R5      2941059.855  1554 5885227.710  5885351.261  5898612.770
+256  TVM+F+R6      2936526.764  1556 5876165.527  5876289.403  5889567.814
+257  TVM+F+R7      2936526.596  1558 5876169.192  5876293.392  5889588.706
+261  SYM           3634694.274  1544 7272476.549  7272598.484  7285775.476
+262  SYM+I         3458333.686  1545 6919757.372  6919879.468  6933064.913
+263  SYM+G4        2963795.778  1545 5930681.556  5930803.652  5943989.097
+264  SYM+I+G4      2953949.953  1546 5910991.907  5911114.164  5924308.061
+265  SYM+R2        3071328.144  1546 6145748.288  6145870.545  6159064.442
+266  SYM+R3        2978272.306  1548 5959640.612  5959763.192  5972973.993
+267  SYM+R4        2954094.082  1550 5911288.163  5911411.067  5924638.771
+268  SYM+R5        2943846.092  1552 5890796.183  5890919.410  5904164.017
+269  SYM+R6        2939261.074  1554 5881630.148  5881753.699  5895015.209
+270  SYM+R7        2939260.896  1556 5881633.791  5881757.667  5895036.078
+274  GTR+F         3626762.022  1547 7256618.045  7256740.463  7269942.812
+275  GTR+F+I       3454408.232  1548 6911912.464  6912035.044  6925245.845
+276  GTR+F+G4      2961790.036  1548 5926676.072  5926798.652  5940009.453
+277  GTR+F+I+G4    2951693.256  1549 5906484.513  5906607.255  5919826.507
+278  GTR+F+R2      3069355.131  1549 6141808.262  6141931.004  6155150.256
+279  GTR+F+R3      2976239.976  1551 5955581.951  5955705.016  5968941.172
+280  GTR+F+R4      2951514.017  1553 5906134.035  5906257.424  5919510.482
+281  GTR+F+R5      2941056.168  1555 5885222.336  5885346.049  5898616.010
+282  GTR+F+R6      2936524.960  1557 5876163.921  5876287.959  5889574.822
+283  GTR+F+R7      2936524.921  1559 5876167.843  5876292.206  5889595.970
+Akaike Information Criterion:           GTR+F+R6
+Corrected Akaike Information Criterion: GTR+F+R6
+Bayesian Information Criterion:         TVM+F+R6
+Best-fit model: TVM+F+R6 chosen according to BIC
+
+All model information printed to /pool/genomics/blaimerbb/UCE/ParaALLwOUTFINAL/phyluce771/concat70per/mafft-nexus-miss-70per-taxa.phylip.model.gz
+CPU time for ModelFinder: 314022.503 seconds (87h:13m:42s)
+Wall-clock time for ModelFinder: 26723.354 seconds (7h:25m:23s)
+Generating 1000 samples for ultrafast bootstrap (seed: 284268)...
+
+NOTE: 5380 MB RAM (5 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+1. Initial log-likelihood: -3166001.225
+2. Current log-likelihood: -2941562.264
+3. Current log-likelihood: -2936460.636
+4. Current log-likelihood: -2936274.038
+5. Current log-likelihood: -2936262.203
+6. Current log-likelihood: -2936261.024
+Optimal log-likelihood: -2936260.954
+Rate parameters:  A-C: 1.08405  A-G: 4.74313  A-T: 1.33831  C-G: 1.28142  C-T: 4.74313  G-T: 1.00000
+Base frequencies:  A: 0.276  C: 0.226  G: 0.226  T: 0.273
+Site proportion and rates:  (0.592,0.090) (0.152,0.474) (0.097,1.218) (0.064,2.521) (0.053,4.679) (0.041,8.385)
+Parameters optimization took 6 rounds (595.385 sec)
+Computing ML distances based on estimated model parameters... 1643.490 sec
+WARNING: Some pairwise ML distances are too long (saturated)
+Computing BIONJ tree...
+2.841 seconds
+Log-likelihood of BIONJ tree: -2962543.507
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 1845.018 second
+Computing log-likelihood of 98 initial trees ... 815.641 seconds
+Current best score: -2936131.473
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -2934134.882
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 2: -2934095.633
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 5: -2934065.662
+Iteration 10 / LogL: -2934594.836 / Time: 1h:28m:30s
+Iteration 20 / LogL: -2934450.201 / Time: 1h:53m:31s
+Finish initializing candidate tree set (20)
+Current best tree score: -2934065.662 / CPU time: 5998.330
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 23: -2934011.923
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 24: -2933874.438
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 26: -2933707.547
+Iteration 30 / LogL: -2933901.540 / Time: 2h:19m:26s (7h:41m:35s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 33: -2933695.182
+Iteration 40 / LogL: -2933923.734 / Time: 2h:40m:8s (6h:21m:51s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 42: -2933628.574
+Iteration 50 / LogL: -2933746.206 / Time: 3h:1m:58s (5h:41m:40s left)
+Log-likelihood cutoff on original alignment: -2934020.985
+UFBoot trees printed to /pool/genomics/blaimerbb/UCE/ParaALLwOUTFINAL/phyluce771/concat70per/mafft-nexus-miss-70per-taxa.phylip.ufboot
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 53: -2933606.018
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 59: -2933446.763
+Iteration 60 / LogL: -2933584.088 / Time: 3h:24m:12s (5h:42m:38s left)
+Iteration 70 / LogL: -2933658.826 / Time: 3h:43m:39s (4h:48m:28s left)
+Iteration 80 / LogL: -2934050.679 / Time: 4h:3m:7s (4h:3m:7s left)
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 89: -2933403.308
+Iteration 90 / LogL: -2933618.169 / Time: 4h:24m:50s (4h:54m:35s left)
+Iteration 100 / LogL: -2933708.195 / Time: 4h:44m:11s (4h:15m:28s left)
+Log-likelihood cutoff on original alignment: -2933932.679
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.934
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+UFBoot trees printed to /pool/genomics/blaimerbb/UCE/ParaALLwOUTFINAL/phyluce771/concat70per/mafft-nexus-miss-70per-taxa.phylip.ufboot
+Iteration 110 / LogL: -2933477.118 / Time: 5h:4m:12s (4h:11m:10s left)
+Iteration 120 / LogL: -2933699.706 / Time: 5h:23m:39s (3h:37m:35s left)
+Iteration 130 / LogL: -2933974.636 / Time: 5h:43m:3s (3h:6m:9s left)
+Iteration 140 / LogL: -2933703.086 / Time: 6h:2m:28s (2h:36m:27s left)
+Iteration 150 / LogL: -2933488.661 / Time: 6h:21m:44s (2h:8m:6s left)
+Log-likelihood cutoff on original alignment: -2933932.679
+UFBoot trees printed to /pool/genomics/blaimerbb/UCE/ParaALLwOUTFINAL/phyluce771/concat70per/mafft-nexus-miss-70per-taxa.phylip.ufboot
+Iteration 160 / LogL: -2933673.405 / Time: 6h:41m:34s (1h:41m:1s left)
+Iteration 170 / LogL: -2933691.386 / Time: 7h:1m:56s (1h:14m:54s left)
+Iteration 180 / LogL: -2933514.362 / Time: 7h:20m:48s (0h:49m:15s left)
+Iteration 190 / LogL: -2933815.835 / Time: 7h:41m:25s (0h:24m:24s left)
+Iteration 200 / LogL: -2934136.261 / Time: 8h:0m:52s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -2933703.508
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.983
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+UFBoot trees printed to /pool/genomics/blaimerbb/UCE/ParaALLwOUTFINAL/phyluce771/concat70per/mafft-nexus-miss-70per-taxa.phylip.ufboot
+Iteration 210 / LogL: -2933583.545 / Time: 8h:20m:7s (3h:35m:21s left)
+Iteration 220 / LogL: -2933491.407 / Time: 8h:39m:56s (3h:9m:55s left)
+Iteration 230 / LogL: -2933558.669 / Time: 8h:59m:14s (2h:44m:49s left)
+Iteration 240 / LogL: -2933497.200 / Time: 9h:18m:33s (2h:20m:13s left)
+Iteration 250 / LogL: -2933465.167 / Time: 9h:37m:32s (1h:55m:58s left)
+Log-likelihood cutoff on original alignment: -2933703.508
+UFBoot trees printed to /pool/genomics/blaimerbb/UCE/ParaALLwOUTFINAL/phyluce771/concat70per/mafft-nexus-miss-70per-taxa.phylip.ufboot
+Iteration 260 / LogL: -2934150.227 / Time: 9h:57m:7s (1h:32m:13s left)
+Iteration 270 / LogL: -2933980.069 / Time: 10h:16m:35s (1h:8m:45s left)
+Iteration 280 / LogL: -2933551.173 / Time: 10h:35m:55s (0h:45m:35s left)
+Iteration 290 / LogL: -2933599.219 / Time: 10h:55m:29s (0h:22m:40s left)
+Iteration 300 / LogL: -2933603.152 / Time: 11h:14m:43s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -2933703.508
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.996
+UFBoot trees printed to /pool/genomics/blaimerbb/UCE/ParaALLwOUTFINAL/phyluce771/concat70per/mafft-nexus-miss-70per-taxa.phylip.ufboot
+TREE SEARCH COMPLETED AFTER 300 ITERATIONS / Time: 11h:15m:1s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -2933403.308
+Optimal log-likelihood: -2933403.298
+Rate parameters:  A-C: 1.08796  A-G: 4.76926  A-T: 1.34326  C-G: 1.28858  C-T: 4.76926  G-T: 1.00000
+Base frequencies:  A: 0.276  C: 0.226  G: 0.226  T: 0.273
+Site proportion and rates:  (0.594,0.091) (0.153,0.481) (0.096,1.240) (0.063,2.561) (0.052,4.706) (0.041,8.433)
+Parameters optimization took 1 rounds (27.401 sec)
+BEST SCORE FOUND : -2933403.298
+Creating bootstrap support values...
+Split supports printed to NEXUS file /pool/genomics/blaimerbb/UCE/ParaALLwOUTFINAL/phyluce771/concat70per/mafft-nexus-miss-70per-taxa.phylip.splits.nex
+Total tree length: 28.407
+
+Total number of iterations: 300
+CPU time used for tree search: 432516.989 sec (120h:8m:36s)
+Wall-clock time used for tree search: 39682.588 sec (11h:1m:22s)
+Total CPU time used: 442349.254 sec (122h:52m:29s)
+Total wall-clock time used: 40535.550 sec (11h:15m:35s)
+UFBoot trees printed to /pool/genomics/blaimerbb/UCE/ParaALLwOUTFINAL/phyluce771/concat70per/mafft-nexus-miss-70per-taxa.phylip.ufboot
+
+Computing bootstrap consensus tree...
+Reading input file /pool/genomics/blaimerbb/UCE/ParaALLwOUTFINAL/phyluce771/concat70per/mafft-nexus-miss-70per-taxa.phylip.splits.nex...
+771 taxa and 2117 splits.
+Consensus tree written to /pool/genomics/blaimerbb/UCE/ParaALLwOUTFINAL/phyluce771/concat70per/mafft-nexus-miss-70per-taxa.phylip.contree
+Reading input trees file /pool/genomics/blaimerbb/UCE/ParaALLwOUTFINAL/phyluce771/concat70per/mafft-nexus-miss-70per-taxa.phylip.contree
+Log-likelihood of consensus tree: -2933401.445
+
+Analysis results written to: 
+  IQ-TREE report:                /pool/genomics/blaimerbb/UCE/ParaALLwOUTFINAL/phyluce771/concat70per/mafft-nexus-miss-70per-taxa.phylip.iqtree
+  Maximum-likelihood tree:       /pool/genomics/blaimerbb/UCE/ParaALLwOUTFINAL/phyluce771/concat70per/mafft-nexus-miss-70per-taxa.phylip.treefile
+  Likelihood distances:          /pool/genomics/blaimerbb/UCE/ParaALLwOUTFINAL/phyluce771/concat70per/mafft-nexus-miss-70per-taxa.phylip.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          /pool/genomics/blaimerbb/UCE/ParaALLwOUTFINAL/phyluce771/concat70per/mafft-nexus-miss-70per-taxa.phylip.splits.nex
+  Consensus tree:                /pool/genomics/blaimerbb/UCE/ParaALLwOUTFINAL/phyluce771/concat70per/mafft-nexus-miss-70per-taxa.phylip.contree
+  UFBoot trees:                  /pool/genomics/blaimerbb/UCE/ParaALLwOUTFINAL/phyluce771/concat70per/mafft-nexus-miss-70per-taxa.phylip.ufboot
+  Screen log file:               /pool/genomics/blaimerbb/UCE/ParaALLwOUTFINAL/phyluce771/concat70per/mafft-nexus-miss-70per-taxa.phylip.log
+
+Date and Time: Fri Mar  1 09:28:37 2019

@@ -1,0 +1,317 @@
+Anthophora_abrupta,solitary,1,ground,mass,seasonal,prepupal
+Anthophora_pacifica,solitary,1,,,seasonal,adult
+Anthophora_plumipes,solitary,1,ground,mass,seasonal,
+Anthophora_edwardsii,solitary,1,ground,mass,seasonal,adult
+Amegilla_dawsoni,solitary,1,ground,mass,seasonal,prepupal
+Habropoda_miserabilis,solitary,1,ground,mass,seasonal,adult
+Habropoda_laboriosa,solitary,single,ground,mass,seasonal,
+Brachynomada_roigi,kleptoparasite,,,,seasonal,prepupal
+Kelita_toroi,kleptoparasite,,,,seasonal,prepupal
+Ericrocis_lata,kleptoparasite,,,,seasonal,prepupal
+Epeolus_pusillus,kleptoparasite,,,,seasonal,prepupal
+Epeolus_compactus,kleptoparasite,,,,seasonal,prepupal
+Leiopodus_singularis,kleptoparasite,,,,seasonal,prepupal
+Xylocopa_virginica,solitary/semisocial,8-Jan,,,seasonal,adult
+Xylocopa_combusta,semisocial/primatively eusocial,multiple,stem/wood,,seasonal,
+Xylocopa_pubescens,subsocial/semisocial/primitively eusocial,multiple,stem/wood,progressive,seasonal,adult
+Xylocopa_sulcatipes,subsocial/semisocial/primitively eusocial,2-Jan,stem/wood,mass,seasonal,adult
+Xylocopa_aeratus,subsocial/semisocial,multiple,stem/wood,progressive,seasonal,adult
+Xylocopa_bombylans,subsocial/semisocial,multiple,stem/wood,progressive,seasonal,adult
+Xylocopa_suspecta,subsocial/semisocial/primitively eusocial,multiple,stem/wood,progressive,seasonal,none
+Xylocopa_frontalis,subsocial/semisocial/primitively eusocial,multiple,stem/wood,progressive,seasonal,none
+Xylocopa_grisescens,subsocial/semisocial/primitively eusocial,multiple,stem/wood,,seasonal,none
+Xylocopa_imitator,subsocial,1,stem/wood,mass,,
+Xylocopa_nigrita,subsocial/semisocial,multiple,stem/wood,mass,,
+Xylocopa_flavorufa,subsocial,1,stem/wood,mass,,
+Xylocopa_torrida,subsocial,1,stem/wood,mass,,
+Xylocopa_violacea,solitary,1,stem/wood,mass,seasonal,
+Manuelia_postica,solitary/communal,3-Jan,stem/wood,mass,seasonal,adult
+Exoneura_robusta,subsocial/semisocial,8-Jan,,,seasonal,adult
+Exoneura_bicolor,subsocial/semisocial/communal,multiple,stem/wood,progressive,seasonal,adult
+Exoneurella_tridentata,semisocial/primatively eusocial?,,stem/wood,progressive,seasonal,none
+Exoneurella_eremophila,subsocial/semisocial/primitively eusocial/communal,multiple,stem/wood,progressive,seasonal,adult
+Exoneurella_setosa,subsocial/semisocial/primatively eusocial/communal,multiple,stem/wood,progressive,seasonal,adult
+Exoneurella_lawsoni,subsocial/primitively eusocial?,1,stem/wood,progressive,seasonal,adult
+Braunsapis_vitrea,subsocial/semisocial/primitively eusocial?,,stem/wood,,seasonal,none
+Braunsapis_puangensis,subsocial/semisocial/primatively eusocial/communal,multiple,stem/wood,progressive,seasonal,none
+Braunsapis_sauteriella,subsocial/semisocial/primitively eusocial,3-Jan,stem/wood,progressive,seasonal,adult
+Ceratina_japonica,primatively eusocial,1,,,seasonal,adult
+Ceratina_flavipes,subsocial,1,,,seasonal,adult
+Ceratina_iwatai,subsocial,1,,,seasonal,adult
+Ceratina_okinawana,subsocial/primitively eusocial,1,,,seasonal,adult
+Ceratina_calcarata,primatively eusocial,1,,progressive,seasonal,adult
+Ceratina_australensis,subsocial/semisocial,2-Jan,stem/wood,mass,seasonal,adult
+Ceratina_chalybea,subsocial,1,stem/wood,mass,seasonal,adult
+Tetrapedia_diversipes,solitary,1,stem/wood,mass,seasonal,prepupal
+Tetrapedia_curvitarsis,solitary,1,stem/wood,mass,seasonal,prepupal
+Tetrapedia_rugulosa,solitary,1,stem/wood,mass,seasonal,prepupal
+Tetrapedia_garofaloi,solitary,1,stem/wood,mass,seasonal,prepupal
+Ctenoplectra_armata,solitary,1,stem/wood,,,prepupal
+Canephorula_apiformis,solitary,1,ground,,seasonal,prepupal
+Melissodes_druriellus,solitary,1,ground,mass,seasonal,
+Svastra_sabinensis_sabinensis,communal,multiple,ground,mass,seasonal,prepupal
+Eucera_nigrilabris,solitary,1,ground,mass,seasonal,
+Diadasia_rinconis,solitary,1,,,seasonal,prepupal
+Diadasia_afflicta,solitary,1,ground,mass,seasonal,prepupal
+Ptilothrix_plumata,solitary,1,ground,,seasonal,prepupal
+Exomalopsis_nitens,solitary,1,ground,mass,seasonal,prepupal
+Exomalopsis_sidae,solitary,1,ground,mass,seasonal,prepupal
+Paratetrapedia_swainsonae,solitary,1,ground,mass,seasonal,prepupal
+Tapinotaspoides_tucumana,solitary,1,ground,mass,,
+Centris_tarsata,solitary,1,stem/wood,mass,seasonal,adult/prepupal
+Centris_analis,solitary,1,stem/wood,mass,aseasonal,none
+Centris_conspersa,solitary,1,ground,mass,seasonal,
+Centris_rufosuffusa,solitary,1,ground,mass,seasonal,prepupal
+Centris_vittata,solitary,1,stem/wood,mass,seasonal,adult
+Centris_rhodopus,solitary,1,ground,mass,,
+Epicharis_nigrita,solitary,1,ground,mass,seasonal,prepupal
+Epicharis_dejeanii,solitary,1,ground,mass,seasonal,prepupal
+Epicharis_rustica,quasisocial,16,cavity,mass,,prepupal
+Epicharis_zonata,solitary,1,ground,mass,seasonal,prepupal
+Epicharis_metatarsalis,solitary,1,ground,mass,seasonal,
+Epicharis_analis,solitary,1,ground,mass,seasonal,
+Euglossa_melanotricha,semisocial/primitively eusocial,3-Jan,cavity,mass,seasonal,none
+Euglossa_townsendi,semisocial/primitively eusocial,3-Jan,stem/wood,mass,seasonal,none
+Euglossa_cordata,semisocial/primitively eusocial,4-Jan,cavity,mass,seasonal,none
+Euglossa_viridissima,primatively eusocial,1,cavity,mass,seasonal,none
+Euglossa_dilemma,semisocial/primitively eusocial,1,stem/wood,mass,,
+Euglossa_nigropilosa,communal,22-Jan,cavity,mass,,none
+Euglossa_cybelia,communal,5-Apr,aerial,mass,seasonal,none
+Euglossa_championi,communal,4-Jan,aerial,mass,,
+Euglossa_hyacinthina,communal,5-Jan,aerial,mass,seasonal,none
+Euglossa_atroveneta,semisocial/primitively eusocial?,10-Jan,cavity,mass,seasonal,none
+Euglossa_annectans,communal,2-Jan,stem/wood,mass,seasonal,
+Exaerete_smaragdina,kleptoparasite,,,,seasonal,
+Eulaema_meriana,solitary/communal/semisocial?,3-Jan,cavity,mass,seasonal,none
+Eulaema_nigrita,communal,7-Jan,cavity,mass,seasonal,none
+Eufriesea_smaragdina,solitary,1,stem/wood,mass,seasonal,prepupal
+Apis_mellifera,advanced eusociality,swarm,cavity,progressive,seasonal/aseasonal,reproductive quiesence/none
+Apis_florea,advanced eusociality,swarm,aerial,progressive,aseasonal,none
+Apis_dorsata,advanced eusociality,swarm,aerial,progressive,aseasonal,none
+Apis_cerana,advanced eusociality,swarm,cavity,progressive,,none
+Bombus_polaris,primitively eusocial,1,cavity,progressive,seasonal,adult
+Bombus_terrestris,primitively eusocial,1,cavity,progressive,seasonal,adult
+Bombus_hypnorum,primitively eusocial,1,cavity,progressive,seasonal,
+Bombus_jonellus,primitively eusocial,1,cavity,progressive,seasonal,adult
+Bombus_lucorum,primitively eusocial,1,cavity,progressive,seasonal,adult
+Bombus_atratus,primitively eusocial,many,cavity,progressive,aseasonal,none
+Bombus_melanopygus,primitively eusocial,1,cavity,progressive,seasonal,adult
+Bombus_nevadensis,primitively eusocial,1,cavity,progressive,seasonal,adult
+Bombus_impatiens,primitively eusocial,1,cavity,progressive,seasonal,adult
+Bombus_brasiliensis,primitively eusocial,1,cavity,progressive,,
+Bombus_pensylvanicus,primitively eusocial,1,cavity,progressive,seasonal,adult
+Bombus_citrinus,social parasite,,cavity,progressive,seasonal,adult
+Bombus_rupestris,social parasite,,cavity,progressive,seasonal,adult
+Tetragonisca_angustula,advanced eusociality,swarm,cavity,mass,seasonal,reproductive quiesence/none
+Partamona_testacea,advanced eusociality,swarm,cavity,mass,,
+Plebeia_droryana,advanced eusociality,swarm,cavity,mass,seasonal,reproductive quiesence
+Melipona_quadrifasciata,advanced eusociality,swarm,cavity,mass,seasonal,reproductive quiesence
+Melipona_eburnea,advanced eusociality,swarm,cavity,mass,,
+Melipona_scutellaris,advanced eusociality,swarm,cavity,mass,,
+Tetragonula_carbonaria,advanced eusociality,swarm,cavity,mass,seasonal,none
+Hypotrigona_gribodoi,advanced eusociality,swarm,cavity,mass,,
+Liotrigona_madecassa,advanced eusociality,swarm,cavity,mass,,
+Axestotrigona_ferruginea,advanced eusociality,swarm,cavity,mass,,
+Plebeina_hildebrandti,advanced eusociality,swarm,cavity,mass,,
+Augochlorella_aurata,solitary/primitively eusocial,1-several,ground,mass,seasonal,adult
+Augochlorella_persimilis,primitively eusocial,1-several,ground,mass,seasonal,adult
+Augochlora_phoemonoe,primitively eusocial,1,stem/wood,mass,seasonal,adult
+Augochlora_pura,subsocial,1,stem/wood,mass,seasonal,adult
+Augochloropsis_iris,primitively eusocial,4-Jan,ground,mass,seasonal,adult
+Augochloropsis_diversipennis,solitary/communal,1,ground,,seasonal,adult
+Augochloropsis_ignita,primitively eusocial,2-Jan,ground,,seasonal,adult
+Augochloropsis_sparsilis,semisocial,1-4 (at least),ground,mass,seasonal,adult
+Augochloropsis_sumptuosa,communal/semisocial,2-Jan,ground,mass,seasonal,adult
+Augochloropsis_metallica,semisocial?,multiple,ground,,seasonal,
+Caenaugochlora_costaricensis,semisocial,1-mutliple,ground,mass,seasonal,adult quiesence
+Megalopta_atra,solitary/subsocial,1,,mass,,
+Megalopta_genalis,subsocial/primitively eusocial,1,stem/wood,mass,seasonal,adult quiesence
+Megalopta_centralis,communal/semisocial,1-mutliple,stem/wood,mass,,
+Megalopta_amoena,subsocial/primitively eusocial,1-mutliple,stem/wood,mass,seasonal,adult quiesence
+Neocorynura_fumipennis,solitary (rarely semisocial),1,ground,mass,aseasonal,none
+Neocorynura_tica,solitary?,1,stem/wood,mass,aseasonal,none
+Corynura_patagonica,semisocial?,multiple,,,seasonal,
+Paroxystoglossa_andromache,solitary (rarely semisocial),1,ground,mass,seasonal,adult/prepual
+Paroxystoglossa_jocasta,solitary (rarely semisocial),1,ground,mass,seasonal,adult/prepual
+Paroxystoglossa_spiloptera,solitary (rarely semisocial),1,ground,,,adult
+Paroxystoglossa_sebrai,solitary (rarely semisocial),,ground,,,adult
+Pseudaugochlora_graminea,semisocial/solitary,1-mutliple,ground,mass,aseasonal,none
+Pseudaugochlora_sordicutis,solitary/semisocial,1-mutliple,ground,mass,aseasonal,none
+Xenochlora_ianthina,semisocial/primitively eusocial,1-mutliple,stem/wood,,seasonal,adult quiesence
+Xenochlora_nigrofemorata,semisocial/primitively eusocial,1-mutliple,stem/wood,,seasonal,adult quiesence
+Agapostemon_angelicus,communal,multiple,ground,mass,seasonal,
+Agapostemon_obliquus,communal,multiple,ground,mass,seasonal,
+Agapostemon_sericeus,solitary,single,ground,mass,seasonal,
+Agapostemon_splendens,solitary,single,ground,mass,seasonal,
+Agapostemon_virescens,communal,multiple,ground,mass,seasonal,adult
+Agapostemon_texanus,communal/solitary,1-mutliple,ground,mass,seasonal,adult
+Agapostemon_nasutus,communal,multiple,ground,mass,seasonal,
+Caenohalictus_eberhardorum,quasisocial/communal,1-mutliple,ground,mass,aseasonal,none
+Habralictus_bimaculatus,communal/subsocial,1-mutliple,ground,mass,aseasonal,none
+Habralictus_canaliculatus,communal,multiple,ground,mass,,
+Ruizantheda_mutabilis,communal,multiple,,,seasonal,
+Ruizantheda_proxima,communal,multiple,,,,
+Pseudagapostemon_braziliensis,quasisocial/semisocial?,multiple,ground,mass,seasonal,
+Thrinchostoma_torridum,"solitary (uncertain, likely subsocial)",1,ground,mass,,
+Sphecodes_crassus,kleptoparasite,,,,,
+Sphecodes_pimpinellae,kleptoparasite,,,,,adult
+Thrincohalictus_prognathus,solitary,1,,,seasonal,adult
+Halictus_confusus,subsocial/primitively eusocial,1,ground,mass,seasonal,adult
+Halictus_aerarius,primitively eusocial,1-mutliple,ground,,seasonal,adult/prepupal
+Halictus_hesperus,primitively eusocial,,ground,,seasonal,
+Halictus_lutescens,primitively eusocial,,ground,,seasonal,
+Halictus_tripartitus,primitively eusocial,1-mutliple,ground,,seasonal,adult
+Halictus_lanei,primitvely eusocial,1-mutliple,ground,mass,seasonal,
+Halictus_tumulorum,primitively eusocial,,,,seasonal,
+Halictus_kessleri,primitively eusocial,,,,,
+Halictus_subauratus,primitively eusocial,,,,,
+Halictus_farinosus,primitively eusocial,1,ground,mass,seasonal,adult
+Halictus_poeyi,primitively eusocial,1-mutliple,ground,mass,seasonal,adult
+Halictus_ligatus,primitively eusocial,1,,,seasonal/aseasonal,adult
+Halictus_rubicundus,primitively eusocial/subsocial,1,ground,mass,seasonal,adult
+Halictus_sexcinctus,primitively eusocial,10-Jan,,,seasonal,adult
+Halictus_scabiosae,primitively eusocial,4-Jan,ground,mass,seasonal,adult
+Halictus_fulvipes,primitively eusocial,,,,,
+Halictus_quadricinctus,subsocial/communal,6-Jan,ground,,seasonal,
+Patellapis_doleritica,communal?,8-Mar,ground,mass,seasonal,
+Lasioglossum_duplex,primitively eusocial,1,ground,mass,seasonal,adult
+Lasioglossum_calceatum,primitively eusocial,1,,,seasonal,adult
+Lasioglossum_albipes,primitively eusocial,1,,,seasonal,adult
+Lasioglossum_apristum,primitively eusocial,1,,,seasonal,adult
+Lasioglossum_malachurum,primitively eusocial,1 (rarely >1),ground,mass,seasonal,adult
+Lasioglossum_laticeps,primitively eusocial,1,ground,mass,seasonal,adult
+Lasioglossum_baleicum,primitively eusocial,1,,,seasonal,adult
+Lasioglossum_fratellum,subsocial,1,,,seasonal,adult
+Lasioglossum_nupricola,subsocial,1,ground,,seasonal,adult
+Lasioglossum_comagenense,communal,6-Jan,ground,mass,seasonal,adult
+Lasioglossum_lusorium,subsocial/communal,1,ground,mass,seasonal,adult
+Lasioglossum_nigripes,primitively eusocial,3-Jan,ground,mass,seasonal,adult
+Lasioglossum_marginatum,primitively eusocial,1,ground,mass,seasonal,adult
+Lasioglossum_oenotherae,solitary,1,ground,mass,seasonal,adult
+Lasioglossum_lineatulum,primitively eusocial,6-Jan,,,seasonal,adult
+Lasioglossum_umbripenne,primitively eusocial,4-Jan,ground,mass,seasonal,adult
+Lasioglossum_zephyrum,primitively eusocial,1,,,seasonal,adult
+Lasioglossum_versatum,primitively eusocial,4-Jan,,,seasonal,adult
+Lasioglossum_opacum,subsocial,1,ground,,seasonal,adult
+Lasioglossum_imitatum,primitively eusocial,6-Jan,ground,mass,seasonal,adult
+Lasioglossum_rhytidophorum,semisocial/primitively eusocial,1,ground,mass,seasonal,adult
+Lasioglossum_tenax,subsocial,1,ground,mass,seasonal,
+Lasioglossum_villosulum,subsocial,1,ground,mass,seasonal,adult
+Lasioglossum_aeneiventre,"primitively eusocial, sometimes solitary?",1,ground,mass,aseasonal,
+Lasioglossum_figurensi,mostly solitary sometimes eusocial/communal,1,ground,,seasonal,none
+Lasioglossum_guaruvae,subsocial,,ground,,,adult
+Lasioglossum_obscurum,primitively eusocial,,ground,,seasonal,adult
+Lasioglossum_politum,primitively eusocial,,,,,
+Lasioglossum_lustrans,solitary/subsocial?,1,,,,
+Lasioglossum_asperithorax,communal and solitary,multiple,ground,mass,seasonal,
+Lasioglossum_dimorphum,communal,multiple,ground,mass,seasonal,
+Lasioglossum_erythrurum,communal,multiple,ground,mass,seasonal,
+Lasioglossum_mesembryanthemi,communal,multiple,ground,mass,,
+Lasioglossum_hemichalceum,subsocial/communal/semisocial?,6-May,ground,mass,seasonal,adult
+Lasioglossum_lanarium,communal,,,,,
+Lasioglossum_cognatum,solitary,single,ground,,,
+Lasioglossum_raymenti,communal,multiple,ground,mass,seasonal,adult
+Lasioglossum_sphecodoides,communal,multiple,,,,
+Lasioglossum_zonulum,solitary,,,,,
+Lasioglossum_occidens,solitary,single,ground,mass,seasonal,
+Lasioglossum_majus,communal,multiple,ground,mass,seasonal,
+Lasioglossum_scitulum,solitary/subsocial/semisocial/primitively eusocial?,1-mutliple,ground,,seasonal,adult
+Lasioglossum_mutilum,solitary/semisocial/primitively eusocial?,2-Jan,ground,,seasonal,adult
+Lasioglossum_leucozonium,solitary,single,,,,
+Lasioglossum_sordidum,semisocial/ communal,multiple,ground,mass,seasonal,adult
+Lasioglossum_ohei,communal,multiple,ground,mass,,
+Lasioglossum_godmanae,solitary or subsocial,,ground,mass,seasonal,
+Lasioglossum_laevigatum,solitary,single,,,,
+Lasioglossum_pallidulum,communal,multiple,ground,mass,seasonal,adult
+Nomioides_variegatus,solitary/communal,1-several,ground,mass,seasonal,adult
+Nomia_chalybeata,solitary/communal,1-mutliple,ground,,seasonal,prepupal
+Nomia_melanderi,solitary,1,ground,,seasonal,prepupal
+Nomia_tetrazonata,communal,multiple,ground,mass,,
+Pseudapis_oxybeloides,communal,multiple,,,,prepupal
+Pseudapis_unidentata,solitary,single,ground,,,
+Hoplonomia_westwoodi,communal,multiple,ground,,seasonal,none
+Dieunomia_triangulifera,solitary,1,ground,mass,,prepupal
+Dieunomia_nevadensis,solitary,single,ground,mass,seasonal,prepupal
+Lipotriches_australica,communal/semisocial,multiple,ground,mass,seasonal,
+Xeralictus_bicuspidariae,solitary,1,ground,mass,seasonal,prepupal
+Xeralictus_timberlakei,solitary,1,ground,mass,seasonal,prepupal
+Sphecodosoma_dicksoni,solitary,1,ground,mass,seasonal,prepupal
+Conanthalictus_conanthi,solitary,1,ground,mass,seasonal,
+Dufourea_malacothricis,solitary,1,ground,mass,seasonal,prepupal
+Dufourea_mulleri,solitary,1,ground,mass,seasonal,prepupal
+Dufourea_novaeangliae,solitary,1,ground,mass,seasonal,prepupal
+Dufourea_pulchricornis,solitary,1,ground,mass,seasonal,prepupal
+Dufourea_trochantera,solitary,1,ground,mass,seasonal,prepupal
+Rophites_canus,solitary,1,ground,mass,seasonal,prepupal
+Rophites_hartmanni,solitary,1,ground,mass,seasonal,prepupal
+Rophites_quinquespinosus,solitary,1,ground,mass,seasonal,prepupal
+Systropha_curvicornis,solitary,1,ground,mass,seasonal,prepupal
+Systropha_planidens,solitary,1,ground,mass,seasonal,prepupal
+Systropha_punjabensis,solitary,1,ground,mass,seasonal,prepupal
+Arpactophilus_mimi,quasisocial/ subsocial,1-many,aerial,progressive,aseasonal,none
+Spilomena_subterranea,communal/ quasisocial/ subsocial?,1-multiple,ground,progressive?,seasonal,
+Spilomena_socialis,quasisocial,multiple,aerial,progressive,,
+Microstigmus_comes,primitive eusocial,6-Jan,aerial,mass,aseasonal,none
+Microstigmus_nigrophthalmus,quasisocial/ subsocial,1-multiple,aerial,progressive,aseasonal,none
+Passaloecus_ithacae,solitary,1,stem/wood,mass,seasonal,prepupal
+Passaloecus_mandibularis,solitary,1,stem/wood,mass,seasonal,prepupal
+Pemphredon_lethifer,solitary,1,stem/wood,mass,seasonal,prepupal
+Stigmus_fraternus,subsocial,1,stem/wood,mass,,
+Polistes_exclamans,primitively eusocial,4-Jan,aerial,progressive,seasonal,adult
+Polistes_fuscatus,primitively eusocial,7-Jan,aerial,progressive,seasonal,adult
+Polistes_variatus,primitively eusocial,7-Jan,aerial,progressive,seasonal,adult
+Polistes_metricus,primitively eusocial,2-Jan,aerial,progressive,seasonal,adult
+Polistes_chinensis_antennalis,primitively eusocial,1,aerial,progressive,seasonal,adult
+Polistes_biglumus,primitively eusocial,1,aerial,progressive,seasonal,adult
+Polistes_cinerascens,primitively eusocial,multiple,aerial,progressive,aseasonal,
+Polistes_dominula,primitively eusocial,multiple,aerial,progressive,seasonal,adult
+Polistes_versicolor,primitively eusocial,multiple,aerial,progressive,seasonal,adult
+Polistes_simillimus,primitively eusocial,multiple,aerial,progressive,,
+Polistes_lanio,primitively eusocial,5-Jan,aerial,progressive,,
+Ropalidia_fasciata,primitively eusocial,4-Feb,aerial,progressive,seasonal,adult
+Ropalidia_marginata,primitively eusocial,20-Jan,aerial,progressive,aseasonal,none
+Belonogaster_petiolata,primitively eusocial,1,aerial,progressive,seasonal,adult
+Belonogaster_juncea_juncea,primitively eusocial,8-Jan,aerial,progressive,aseasonal,none
+Mischocyttarus_cerberus_styx,primitively eusocial,1-few,aerial,progressive,seasonal,none
+Mischocyttarus_mexicanus,primitively eusocial,20-Jan,aerial,progressive,seasonal,none
+Mischocyttarus_mastigophorus,primitively eusocial,7-Jan,aerial,progressive,seasonal,none
+Mischocyttarus_drewseni,primitively eusocial,8-Jan,aerial,progressive,aseasonal,none
+Synoeca_septentrionalis,primitively eusocial,swarm,aerial,progressive,aseasonal,none
+Protopolybia_exigua,primitively eusocial,swarm,aerial,progressive,,none
+Vespula_maculifrons,advanced eusocial,1,cavity,progressive,seasonal,adult
+Vespa_orientalus,advanced eusocial,1,cavity,progressive,seasonal,adult
+Vespa_simillima,advanced eusocial,1,cavity/aerial,progressive,seasonal,adult
+Vespa_tropica,advanced eusocial,1-multiple,cavity/aerial,progressive,seasonal,adult
+Zethus_miniatus,subsocial,1,,progressive,,
+Zethus_unknown,subsocial,1,cavity/aerial,progressive,seasonal,prepupal
+Ancistrocerus_antilope,solitary,1,stem/wood,mass,seasonal,prepupal
+Ancistrocerus_catskill_albophaleratus,solitary,1,stem/wood,mass,seasonal,prepupal
+Euodynerus_foraminatus,solitary,1,stem/wood,mass,seasonal,prepupal
+Euodynerus_leucomelas,solitary,1,stem/wood,mass,seasonal,prepupal
+Symmorphus_cristatus_cristatus,solitary,1,stem/wood,mass,seasonal,prepupal
+Orancistrocerus_drewseni,subsocial,1,stem/wood,mass,seasonal,prepupal
+Anterhynchium_flavomarginatum,solitary,1,stem/wood,mass,seasonal,prepupal
+Brachymenes_dyscherus,solitary,1,aerial,mass,seasonal,prepupal/ adult
+Alastor_mocsaryi,solitary,1,stem/wood,mass,seasonal,prepupal
+Abispa_ephippium,subsocial,1,aerial,progressive,seasonal,none
+Synagris_cornuta,subsocial,1,aerial,progressive,aseasonal,none
+Montezumia_brethesi,subsocial,1,aerial,progressive,,
+Montezumia_cortesioides,subsocial,1,aerial,progressive,aseasonal,none
+Paraleptomenes_miniatus_mephitis,subsocial,1,aerial,progressive,aseasonal,none
+Eumenes_alluaudi,solitary,1,aerial,mass,aseasonal,none
+Zeta_abdominale,solitary,1,aerial,mass,aseasonal,none
+Zeta_argillaceum,solitary,1,aerial,mass,aseasonal,none
+Delta_latreillei,solitary,1,aerial,mass,seasonal,
+Trimeria_howardi,solitary/ subsocial/ communal/ semisocial?,7-Jan,ground,progressive,seasonal,prepupal
+Pseudomasaris_phaceliae,solitary,1,aerial,mass,seasonal,prepupal
+Pseudomasaris_edwardsii,solitary,1,aerial,mass,seasonal,prepupal
+Paragia_tricolor,solitary,1,ground,mass,seasonal,prepupal
+Liostenogaster_flavolineata,primitively eusocial,3-Jan,aerial,progressive,aseasonal,none
+Eustenogaster_nigra,subsocial,1,aerial,progressive,seasonal,adult
+Eustenogaster_scitula,subsocial,1,aerial,progressive,seasonal,adult
+Eustenogaster_calyptodoma,primitively eusocial,1,aerial,progressive,aseasonal,none
+Eustenogaster_fraterna,primitively eusocial,2-Jan,aerial,progressive,aseasonal,none
+Parischnogaster_nigricans_serrei,primitively eusocial,1-several,aerial,progressive,aseasonal,none
+Parischnogaster_mellyi,primitively eusocial,1,aerial,progressive,aseasonal,none
+Parischnogaster_alternata,primitively eusocial,5-Jan,aerial,progressive,aseasonal,none
+Rhopalosoma_nearcticum,parasitoid,,,,,prepupal

@@ -1,0 +1,524 @@
+print("start")
+
+# set my move index
+mvi = 0
+mni = 0
+
+#loadPlugin("TensorPhylo", "/Users/seanmchugh/software/tensorphylo/build/installer/lib")
+
+loadPlugin("TensorPhylo", "/tensorphylo/build/installer/lib")
+
+if (!exists("clades")) clades= "All_Lizards"
+
+if (!exists("traits")) traits= "PFA" #PF 
+
+print("hello")
+
+if (!exists("arb"))     arb = "relax"
+
+print("hello")
+
+if (!exists("thresh"))     thresh = 0.5
+if (!exists("nHDM"))         nHDM = 3
+if (!exists("nHIM"))         nHIM = 0
+if (!exists("SSE_TYPE")) SSE_TYPE = "CID"
+if (!exists("ht"))             ht = "ER"
+if(!exists("run"))            run = 1
+
+print(traits)
+print(clades)
+print(arb)
+print(thresh)
+print(nHDM)
+print(nHIM)
+print(SSE_TYPE)
+print(ht)
+
+
+################################################################################
+# MuHiSSE
+
+################################################################################
+
+#######################
+# Reading in the Data #
+#######################
+
+ NUM_TOTAL_SPECIES  = 500
+
+NUM_TRAITS            = traits.size()
+NUM_OBS             = 2^NUM_TRAITS
+NUM_HIDDEN            = nHDM
+NUM_STATES            = NUM_OBS  * NUM_HIDDEN 
+nHDM=NUM_HIDDEN
+
+# Read in the observed phylogeny
+
+
+#create label objects here for files
+#char_id=traits+"_"+clades+"_"+thresh+"_thresh_"+arb+"Arb"
+
+Qmat_id=traits+"_"+"HDM"+nHDM+"HIM"+nHIM+"_"+ht+"_"+SSE_TYPE
+
+job_id=run+"HDM"+nHDM+"HIM"+nHIM+"_"+ht+"_"+SSE_TYPE
+
+
+
+#transition_mat_int  = matrix(readDataDelimitedFile("castor_sims/QMatrices/"+Qmat_id+".txt",  FALSE, " ", FALSE))
+#transition_df_in   = matrix(readDataDelimitedFile("castor_sims/QDf/"+Qmat_id+"df.txt"    ,  FALSE, " ", FALSE))
+#transition_par      = matrix(readDataDelimitedFile("castor_sims/QPars/"+Qmat_id+"par.txt" ,  FALSE, " ", FALSE))
+
+#root_state_prob_vec = readDataDelimitedFile("castor_sims/Root_Probs/"+Qmat_id+".txt",  FALSE, " ", FALSE)[1]
+
+
+NUM_RATES             = transition_mat_int[1].size()
+NUM_RATE_PARS         = transition_mat_int.max()
+H                     = 0.587405
+
+
+#########################################################
+
+sim_str = "parameter,value\n"
+
+#sim_str += "sigma_e[" + k + "]," + sigma_e[k] + "\n"
+
+
+# model settings
+
+
+# build state space
+idx = 1
+for (i in 1:NUM_HIDDEN ) {
+    for (j in 1:NUM_OBS ) {
+        state[idx] = [ i, j ]    
+        print("state[" + idx + "] = { hid:" + i + ", obs:" + j + "}")
+        idx = idx + 1
+    }
+}
+
+# build inverse state space
+for (i in 1:NUM_STATES ) {
+    s_hid = state[i][1]
+    s_obs = state[i][2]
+    state_inv[s_obs][s_hid] = i
+
+    print("state_inv[" + s_hid + "][" + s_obs + "] = " + i)
+}
+
+
+tree_length <- 10.0
+
+
+# Create some vector for the moves and monitors of this analysis
+moves    = VectorMoves()
+monitors = VectorMonitors()
+
+
+####################
+# Create the rates #
+####################
+
+### Specify a prior on the speciation and extinction rates
+rate_mean <- (NUM_TOTAL_SPECIES-2) / tree_length
+
+
+#########################################################
+# Set up the transition rate matrix for observed states #
+#########################################################
+
+
+#rate_pr := T.treeLength() / 10
+
+
+
+#transition_idx = transition_df_in
+
+
+
+
+#for (i in 1:NUM_RATE_PARS  ) {
+#  
+#  print(i)
+#  Q_rate_pars[i] ~ dnExp(rate_pr)
+#  #Q_rate_pars[i] = i
+#  moves.append(mvScale(Q_rate_pars[i], lambda=0.20, tune=TRUE, weight=1.0))
+#  #moves.append(mvScale(Q_rate_pars[i], lambda=0.20, tune=TRUE, weight=0.50, tuneTarget=0.1))
+#  
+#  
+#}
+
+rate_pr := 5.0
+
+hid_trans_rate_dn       = dnExp(rate_pr*10)
+obs_trans_rate_dn       = dnExp(rate_pr)
+obs_extn_rate_dn        = dnExp(rate_pr)
+obs_spxn_rate_dn        = dnExp(rate_pr)
+
+spxn_extn_rate_mod_dn  = dnNormal(0,1)
+
+
+rj_prob <- 0.5
+
+hid_trans_rate ~ hid_trans_rate_dn
+
+sim_str += "hid_trans_rate," + hid_trans_rate + "\n"
+moves.append( mvScale( hid_trans_rate,lambda=0.2,tune=true,weight=1.0) )
+
+
+clado_idx = 1
+state_idx = 1
+
+
+for (i in 1:NUM_HIDDEN  ) {
+  
+  print("i")
+  print(i)
+  
+  # previous hidden state index
+  i_prev = abs(i-1)
+  
+  for (j in 1:NUM_OBS) {
+  
+    print("j")
+    print(j)
+
+    # speciation
+    if (i == 1) {
+    
+      lambda_base[i][j] ~ obs_spxn_rate_dn
+      sim_str += "lambda_base[" + i + "]" +"[" +j + "]," + lambda_base[i][j] + "\n"
+      moves.append( mvScale( lambda_base[i][j],lambda=0.2,tune=true,weight=1.0) )
+
+      
+      mu_base[i][j] ~ obs_extn_rate_dn
+      sim_str += "mu_base[" + i + "]" +"[" +j + "]," + mu_base[i][j] + "\n"
+
+      moves.append( mvScale(mu_base[i][j],lambda=0.2,tune=true,weight=1.0) )
+
+    } else if (i > 1) {
+      
+      lambda_base[i][j] ~ dnReversibleJumpMixture(
+        constantValue=lambda_base[i_prev][j],
+        baseDistribution=obs_spxn_rate_dn,
+        p=rj_prob
+      )
+      
+     sim_str += "lambda_base[" + i + "]" +"[" +j + "]," + lambda_base[i][j] + "\n"
+
+      
+      moves.append( mvScale( lambda_base[i][j],lambda=0.2,tune=true,weight=1.0) )
+      moves.append( mvRJSwitch( lambda_base[i][j], weight=1.0 ))
+
+      mu_base[i][j] ~ dnReversibleJumpMixture(
+        constantValue=mu_base[i_prev][j],
+        baseDistribution=obs_extn_rate_dn,
+        p=rj_prob
+      )
+      
+      sim_str += "mu_base[" + i + "]" +"[" +j + "]," + mu_base[i][j] + "\n"
+
+      moves.append( mvScale(mu_base[i][j],lambda=0.2,tune=true,weight=1.0) )
+      moves.append( mvRJSwitch( mu_base[i][j], weight=1.0 ))
+
+      
+    }
+    
+    clado_state = int(state_inv[j][i]-1)
+    clado_events[clado_idx] = [ clado_state, clado_state, clado_state ]
+    clado_rates[clado_idx] := lambda_base[i][j]
+    clado_idx += 1
+    
+    lambda[state_idx] := lambda_base[i][j]
+    mu[state_idx] := mu_base[i][j]
+    state_idx += 1
+    
+    # anagenetic
+    for (k in 1:NUM_OBS) {
+          print("k")
+    print(k)
+
+      rate = transition_mat_int[j][k]
+      
+      if (j == k) {
+        
+        # diagonal
+        obs_trans_rate[i][j][k] <- 0.0
+        
+      }  else if(rate == 0) {
+        
+        # not a par in rate matrix, fixed to zero
+        obs_trans_rate[i][j][k] <- 0.0 
+         
+        
+      } else if (i == 1) {
+      
+        # "base" rate among hidden states
+        obs_trans_rate[i][j][k] ~ dnExp(rate_pr)
+        
+        sim_str += "obs_trans_rate[" + i + "]" +"[" +j + "]" +"[" +k + "]," + obs_trans_rate[i][j][k] + "\n"
+
+        moves.append(mvScale(obs_trans_rate[i][j][k], lambda=0.20, tune=TRUE, weight=1.0))
+        monitors.append( mnFile(obs_trans_rate[i][j][k], filename="output_MuHiSSE /par_logs/"+"trans_rate_"+i+"_"+j+"_"+k+"_"+job_id+"_run"+run+"_pars.log", printgen=1) )
+
+        
+      } else if (i > 1) {
+        
+        obs_trans_rate[i][j][k] ~ dnReversibleJumpMixture(
+          constantValue=obs_trans_rate[i_prev][j][k],
+          baseDistribution=obs_trans_rate_dn,
+          p=rj_prob)
+          
+        sim_str += "obs_trans_rate[" + i + "]" +"[" +j + "]" +"[" +k + "]," + obs_trans_rate[i][j][k] + "\n"
+
+        moves.append(mvScale(obs_trans_rate[i][j][k], lambda=0.20, tune=TRUE, weight=1.0))
+        moves.append( mvRJSwitch( obs_trans_rate[i][j][k], weight=1.0 ))
+
+        monitors.append( mnFile(obs_trans_rate[i][j][k], filename="output_MuHiSSE /par_logs/"+"trans_rate_"+i+"_"+j+"_"+k+"_"+job_id+"_run"+run+"_pars.log", printgen=1) )
+
+        
+      }
+    }
+  }
+}
+
+
+
+C := fnCladogeneticSpeciationRateMatrix(
+  cladogenetic_events=clado_events,
+  speciation_rates=clado_rates,
+  num_states=NUM_STATES)
+C
+
+for (i in 1:NUM_STATES) {
+  
+  # get observed/hidden states for i
+  hid_i = state[i][1]
+  obs_i = state[i][2]
+  
+  for (j in 1:NUM_STATES) {
+    
+    # get observed/hidden states for j
+    hid_j = state[j][1]
+    obs_j = state[j][2]
+    
+    # init value for Q[i,j]
+    Q_mtx[i][j] <- 0.0
+    
+    # observed state change?
+    diff_obs = (obs_i != obs_j)
+    
+    # hidden state change?
+    diff_hid = (hid_i != hid_j)
+    
+    # fill in Q matrix
+    if (diff_obs && diff_hid) {
+      # two changes, do nothing
+    } else if (diff_obs) {
+      Q_mtx[i][j] := obs_trans_rate[hid_i][obs_i][obs_j]
+    } else if (diff_hid) {
+      Q_mtx[i][j] := hid_trans_rate
+    } else {
+      # no changes, do nothing
+    }
+  }
+}
+
+Q := fnFreeK(transition_rates=Q_mtx, rescaled=false)
+
+pi <- simplex(rep(1,NUM_STATES))
+#rho <- 1.0
+
+root_age <-10.0
+
+#root_age <- 5
+
+#num_proc=1
+#
+#sim ~ dnCDBDP(rootAge=root_age,
+#              pi=pi,
+#              speciationRates=C,
+#              extinctionRates=mu,
+#              Q=Q,
+#              rho=rho,
+#              condition="survival",
+#              simulateCondition="startTime",
+#              minNumLineages=10,
+#              maxNumLineages=500)
+#
+#dat_sim = sim.getCharData()
+#phy_sim = sim
+#taxa = phy_sim.taxa()
+#
+#phy ~ dnGLHBDSP(rootAge=root_age,
+#                pi=pi,
+#                lambda=lambda,
+#                mu=mu,
+#                eta=Q,
+#                rho=rho,
+#                taxa=taxa,
+#                nStates=NUM_STATES,
+#                nProc=num_proc,
+#                zeroIndex=true)
+#
+#phy.clamp(phy_sim)
+#phy.clampCharData(dat_sim)
+#phy.lnProbability()
+#
+#
+#xxx
+
+#####################################
+# Set up the root state frequencies #
+#####################################
+
+### Create a constant variable with the prior probabilities of each rate category at the root.'
+
+pi = Simplex(root_state_prob_vec)
+
+
+### Create the fix parameter for the age of the root set to the observed age
+
+
+### rho is the probability of sampling species at the present
+###
+rho <- 1.0
+
+#xxxxx
+
+sim ~ dnCDBDP(rootAge=root_age,
+              pi=pi,
+              speciationRates=C,
+              extinctionRates=mu,
+              Q=Q,
+              rho=rho,
+              condition="survival",
+              simulateCondition="startTime",
+              minNumLineages=50,
+              maxNumLineages=5000)
+              
+
+dat_sim = sim.getCharData()
+char_hist_sim = sim.getCharHistory()
+phy_sim = sim
+taxa = phy_sim.taxa()
+tree_size = sim.taxa().size()
+
+fp = getwd()+"/"
+out_fp = fp + "rjMuHiSSE/data/sim/history/" + job_id
+phy_fn = out_fp + ".tree.tre"
+param_fn = out_fp + ".param.txt"
+data_fn = out_fp + ".data.tsv"
+events_fn = out_fp + ".events.tsv"
+stoch_fn = out_fp + ".stoch.log"
+
+
+
+write(sim_str, filename=param_fn)
+print("   Parameter data saved at " + param_fn)
+
+# save phylogeny
+write(phy_sim, filename=phy_fn)
+print("   Tree data saved at " + phy_fn)
+
+# save data
+writeCharacterDataDelimited(dat_sim, file=data_fn, delimiter="\t")
+print("   Tip data saved at " + data_fn)
+
+
+print_gen=1
+#monitors.append(mnStochasticCharacterMap(glhbdsp=sim, filename=stoch_fn), print_gen=1)
+#
+#x_stoch = readAncestralStateTrace(file = stoch_fn)
+#summarizeCharacterMaps(x_stoch,timetree,file=events_fn,burnin=0) 
+#
+#print("Done")
+#
+#xxxxxx
+#
+
+### clamp the model with the "observed" tree
+#timetree.clamp( T )
+#
+#print("chardat")
+#
+#data_exp 
+#
+#timetree.clampCharData( data_exp )
+#
+#print("chardat")
+#
+
+
+
+timetree ~ dnGLHBDSP( rootAge           = root_age,
+                      lambda            = lambda,
+                      mu                =  mu, 
+                      eta               =  Q,
+                      pi                = pi,
+                      rho               = rho,
+                      condition         = "survival" ,
+                      taxa              = taxa,
+                      nStates           = NUM_STATES,
+                       zeroIndex        = true )
+                      
+
+timetree.clamp( phy_sim )
+
+print("chardat")
+
+
+timetree.clampCharData( dat_sim )
+
+print("chardat")
+
+
+
+#############
+# The Model #
+#############
+
+
+### workspace model wrapper ###
+mymodel = model(timetree)
+print("mymodel")
+
+#timetree
+
+fp = getwd()+"/"
+log_fp = fp + "rjMuHiSSE/data/sim/logs/" + job_id
+#phy_fn = out_fp + ".tree.tre"
+#param_fn = out_fp + ".param.txt"
+#data_fn = out_fp + ".data.tsv"
+#events_fn = out_fp + ".events.tsv"
+#stoch_fn = out_fp + ".stoch.log"
+
+
+### set up the monitors that will output parameter values to file and screen 
+monitors.append( mnModel(filename=log_fp +"_pars.log", printgen=1) )
+monitors.append( mnJointConditionalAncestralState(tree=timetree, glhbdsp=timetree, type="NaturalNumbers", printgen=1, withTips=true, withStartStates=TRUE, filename= log_fp +"_anc_states.log") )
+monitors.append( mnStochasticCharacterMap(glhbdsp=timetree, printgen=1, filename="output_MuHiSSE/stoch_char_map_logs/"+log_fp +"_stoch_char_map.log") )
+
+
+monitors.append( mnScreen(printgen=1, lambda, mu) )
+
+
+
+################
+# The Analysis #
+################
+
+### workspace mcmc
+
+xxxxx
+moves
+
+mymcmc = mcmc(mymodel, monitors, moves, moveschedule="random", combine="mixed")
+
+
+#mymcmc.burnin(generations=1500, tuningInterval=50)
+
+### run the MCMC
+mymcmc.run(generations=50000)
+
+
+
